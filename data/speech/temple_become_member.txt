@@ -1,0 +1,4 @@
+Bem-vindo a [CONTEXT:ENTITY:TRANS_NAME].  Louvado seja [CONTEXT:ENTITY:WORSHIP_HF:TRANS_NAME]!
+Bem-vindo a [CONTEXT:ENTITY:TRANS_NAME].  Louvado seja [CONTEXT:ENTITY:WORSHIP_HF:RANDOM_DEF_SPHERE]!
+Como um membro da [CONTEXT:ENTITY:TRANS_NAME], vocˆ pode agora procurar por grandes mist‚rios de [CONTEXT:ENTITY:WORSHIP_HF:TRANS_NAME].
+Como um membro da [CONTEXT:ENTITY:TRANS_NAME], vocˆ pode agora procurar por grandes mist‚rios de [CONTEXT:ENTITY:WORSHIP_HF:RANDOM_DEF_SPHERE].

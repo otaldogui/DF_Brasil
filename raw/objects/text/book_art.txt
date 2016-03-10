@@ -1,0 +1,18 @@
+[NAME]
+[PHRASE]
+[ADJ] [NO_ART_NAME]
+O [ADJ] [NO_ART_NAME]
+[NAME] [ADJ]
+NAME] e o [NOUN
+NAME] e o [ADJ] [NOUM
+O [NOUN] e [NAME]
+O [ADJ] [NOUN] e [NAME]
+[NAME]: [PHRASE]
+Deve Ter Sido [NAME]
+Meu Amigo [NAME]
+O Nascimento de [NAME]
+O Sol se P”e em [NAME]
+N¢s Avistamos [NAME]
+[NAME] Sempre Adiante
+[NAME] e Nada Mais
+E [ANY_PRONOUN] Cantou '[NAME]!'

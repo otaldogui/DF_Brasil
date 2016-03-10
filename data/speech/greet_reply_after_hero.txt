@@ -1,0 +1,2 @@
+Eu sou [SPEAKER:TRANS_NAME].  Em que posso ajudar?
+Eu sou [SPEAKER:TRANS_NAME].  Como posso ser £til?

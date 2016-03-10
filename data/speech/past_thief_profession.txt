@@ -1,0 +1,2 @@
+Uma vez eu procurei por grandes tesouros.
+Eu procurei por grandes tesouros durante [CONTEXT:NUMBER] anos.

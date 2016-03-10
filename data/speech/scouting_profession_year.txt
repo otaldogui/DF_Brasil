@@ -1,0 +1,1 @@
+Eu patrulhava a  rea aos arredores de [CONTEXT:PLACE:TRANS_NAME] por [CONTEXT:NUMBER] anos da minha vida.

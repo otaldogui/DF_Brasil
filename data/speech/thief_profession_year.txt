@@ -1,0 +1,1 @@
+Eu procuro por tesouros e os trago de volta para [CONTEXT:PLACE:TRANS_NAME] e tenho feito isso por [CONTEXT:NUMBER] anos.
