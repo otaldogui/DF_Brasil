@@ -10,6 +10,8 @@
 
 [STEAM_TITLE:Vanilla Materials PTBR]
 [STEAM_TAG:mod]
-[STEAM_KEY_VALUE_TAG:localization,translation,pt-br,vanilla,materials]
+[STEAM_TAG:pt-br]
+[STEAM_KEY_VALUE_TAG:localization,translation,vanilla,materials]
 [STEAM_METADATA:DF Brasil Portuguˆs PT-BR Alexandre Hernandes]
-[STEAM_FILE_ID:1234567890]
+
+[STEAM_FILE_ID:3026638978]
