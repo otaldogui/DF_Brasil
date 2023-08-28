@@ -6,7 +6,7 @@ interaction_standard
 	[I_SOURCE:CREATURE_ACTION]
 	[I_TARGET:A:CREATURE]
 		[IT_LOCATION:CONTEXT_CREATURE]
-		[IT_MANUAL_INPUT:creature]
+		[IT_MANUAL_INPUT:criatura]
 	[I_EFFECT:CLEAN]
 		[IE_TARGET:A]
 		[IE_IMMEDIATE]
@@ -19,7 +19,7 @@ interaction_standard
 		[IT_LOCATION:CONTEXT_BP]
 	[I_TARGET:B:CREATURE]
 		[IT_LOCATION:CONTEXT_CREATURE]
-		[IT_MANUAL_INPUT:creature]
+		[IT_MANUAL_INPUT:criatura]
 	[I_EFFECT:CONTACT]
 		[IE_TARGET:A]
 		[IE_TARGET:B]
@@ -32,7 +32,7 @@ interaction_standard
 	[I_TARGET:B:CREATURE]
 		[IT_LOCATION:CONTEXT_CREATURE]
 		[IT_FORBIDDEN:CAN_LEARN]
-		[IT_MANUAL_INPUT:creature]
+		[IT_MANUAL_INPUT:criatura]
 	[I_EFFECT:CONTACT]
 		[IE_TARGET:A]
 		[IE_TARGET:B]
@@ -43,10 +43,10 @@ interaction_standard
 	[I_TARGET:A:MATERIAL]
 		[IT_MATERIAL:CONTEXT_MATERIAL]
 	[I_TARGET:B:LOCATION]
-		[IT_LOCATION:CONTEXT_LOCATION] <-- this is always the emitter for now
+		[IT_LOCATION:CONTEXT_LOCATION] <-- agora, este ‚ sempre o emissor
 	[I_TARGET:C:LOCATION]
-		[IT_LOCATION:CONTEXT_CREATURE_OR_LOCATION] <-- lets projectiles be aimed at specific creatures
-		[IT_MANUAL_INPUT:target]
+		[IT_LOCATION:CONTEXT_CREATURE_OR_LOCATION] <-- permite que os proj‚teis sejam mirados em criaturas espec¡ficas
+		[IT_MANUAL_INPUT:alvo]
 	[I_EFFECT:MATERIAL_EMISSION]
 		[IE_TARGET:A]
 		[IE_TARGET:B]
