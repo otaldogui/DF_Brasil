@@ -3,20 +3,20 @@ material_template_default
 [OBJECT:MATERIAL_TEMPLATE]
 
 [MATERIAL_TEMPLATE:STONE_TEMPLATE]
-	These are the state names, adjectives and colors for the material.
+	Estes s„o os nomes de estado, os adjectivos e as cores do material.
 	[STATE_COLOR:ALL_SOLID:GRAY]
-	[STATE_NAME:ALL_SOLID:stone]
-	[STATE_ADJ:ALL_SOLID:stone]
+	[STATE_NAME:ALL_SOLID:pedra]
+	[STATE_ADJ:ALL_SOLID:pedra]
 	[STATE_COLOR:LIQUID:ORANGE]
 	[STATE_NAME:LIQUID:magma]
 	[STATE_ADJ:LIQUID:magma]
 	[STATE_COLOR:GAS:ORANGE]
-	[STATE_NAME:GAS:boiling magma]
-	[STATE_ADJ:GAS:boiling magma]
+	[STATE_NAME:GAS:vapor de magma]
+	[STATE_ADJ:GAS:vapor de magma]
 	[DISPLAY_COLOR:7:0:0]
-	The modifier used to all values involving the material.
+	O modificador usado para todos os valores que envolvem o material.
 	[MATERIAL_VALUE:1]
-	Temperature information.
+	Informa‡”es de temperatura.
 	[SPEC_HEAT:800]
 	[IGNITE_POINT:NONE]
 	[MELTING_POINT:11500]
@@ -24,16 +24,16 @@ material_template_default
 	[HEATDAM_POINT:NONE]
 	[COLDDAM_POINT:NONE]
 	[MAT_FIXED_TEMP:NONE]
-	Density information.  Not used for very much, but it comes up in inventory weight and fighting.
+	Informa‡”es de densidade. N„o ‚ muito usado, mas aparece no peso do invent rio e na luta.
 	[SOLID_DENSITY:2670]
 	[LIQUID_DENSITY:3300]
-	Not used.
+	N„o usado.
 	[MOLAR_MASS:36000]
-	Used for blunt-force combat, measured in KPa.  Data scattered around the net (used compressive strength).  All very spotty.
-	[IMPACT_YIELD:120000] used marble
+	Usado para combate de for‡a contundente, medido em KPa. Dados espalhados pela rede (resistˆncia … compress„o usada). Tudo muito irregular.
+	[IMPACT_YIELD:120000] usado m rmore
 	[IMPACT_FRACTURE:120000]
 	[IMPACT_STRAIN_AT_YIELD:100]
-	Not used.
+	N„o usado.
 	[COMPRESSIVE_YIELD:120000]
 	[COMPRESSIVE_FRACTURE:120000]
 	[COMPRESSIVE_STRAIN_AT_YIELD:100]
@@ -43,19 +43,19 @@ material_template_default
 	[TORSION_YIELD:15000]
 	[TORSION_FRACTURE:15000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	Used for cutting calculations in combat, measured in KPa.  Data scattered around the net (used tensile strength).  All very spotty.
-	[SHEAR_YIELD:15000] used marble
+	Usado para c lculos de corte em combate, medidos em KPa. Dados espalhados pela rede (resistˆncia … tra‡„o usada). Tudo muito irregular.
+	[SHEAR_YIELD:15000] usado m rmore
 	[SHEAR_FRACTURE:15000]
 	[SHEAR_STRAIN_AT_YIELD:100]
-	Not used.
+	N„o usado.
 	[BENDING_YIELD:15000]
 	[BENDING_FRACTURE:15000]
 	[BENDING_STRAIN_AT_YIELD:100]
-	A unitless measure for how sharp the edge is for combat purposes.
+	Uma medida sem unidade de qu„o afiada ‚ a borda para fins de combate.
 	[MAX_EDGE:1000]
-	Used for pressing oil into jugs -- anything greater than zero needs to be glazed first.
+	Usado para prensar ¢leo em jarras _ qualquer coisa maior que zero precisa ser vitrificada primeiro.
 	[ABSORPTION:0]
-	Determines what sorts of objects can be built with the item.
+	Determina que tipos de objetos podem ser constru¡dos com o item.
 	[ITEMS_HARD]
 	[ITEMS_QUERN]
 	[REACTION_CLASS:CAN_GLAZE]
@@ -65,11 +65,11 @@ material_template_default
 	[STATE_NAME:ALL_SOLID:metal]
 	[STATE_ADJ:ALL_SOLID:metal]
 	[STATE_COLOR:LIQUID:RED]
-	[STATE_NAME:LIQUID:molten metal]
-	[STATE_ADJ:LIQUID:molten metal]
+	[STATE_NAME:LIQUID:metal derretido]
+	[STATE_ADJ:LIQUID:metal derretido]
 	[STATE_COLOR:GAS:RED]
-	[STATE_NAME:GAS:boiling metal]
-	[STATE_ADJ:GAS:boiling metal]
+	[STATE_NAME:GAS:vapor de metal]
+	[STATE_ADJ:GAS:vapor de metal]
 	[DISPLAY_COLOR:7:0:0]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:450]
@@ -82,7 +82,7 @@ material_template_default
 	[SOLID_DENSITY:7850]
 	[LIQUID_DENSITY:6980]
 	[MOLAR_MASS:55845]
-	[IMPACT_YIELD:1080000] used average for stainless steel
+	[IMPACT_YIELD:1080000] m‚dia usada para a‡o inoxid vel
 	[IMPACT_FRACTURE:1080000]
 	[IMPACT_STRAIN_AT_YIELD:1000]
 	[COMPRESSIVE_YIELD:1080000]
@@ -94,7 +94,7 @@ material_template_default
 	[TORSION_YIELD:520000]
 	[TORSION_FRACTURE:860000]
 	[TORSION_STRAIN_AT_YIELD:1000]
-	[SHEAR_YIELD:520000] used stainless steel
+	[SHEAR_YIELD:520000] usado a‡o inoxid vel
 	[SHEAR_FRACTURE:860000]
 	[SHEAR_STRAIN_AT_YIELD:1000]
 	[BENDING_YIELD:520000]
@@ -106,8 +106,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:WOOD_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:BROWN]
-	[STATE_NAME:ALL_SOLID:wood]
-	[STATE_ADJ:ALL_SOLID:wooden]
+	[STATE_NAME:ALL_SOLID:madeira]
+	[STATE_ADJ:ALL_SOLID:de madeira]
 	[STATE_COLOR:LIQUID:BROWN]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -138,7 +138,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:1000]
-	[SHEAR_YIELD:40000] used pine
+	[SHEAR_YIELD:40000] usado pinho
 	[SHEAR_FRACTURE:40000]
 	[SHEAR_STRAIN_AT_YIELD:1000]
 	[BENDING_YIELD:10000]
@@ -152,13 +152,13 @@ material_template_default
 	[ITEMS_AMMO]
 	[ITEMS_ARMOR]
 	[ITEMS_SIEGE_ENGINE]
-	This general material classifier determines various in-game behaviors.  There are several others below.
+	Este classificador geral de materiais determina v rios comportamentos no jogo. Existem v rios outros abaixo.
 	[WOOD]
 
 [MATERIAL_TEMPLATE:SKIN_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GRAY]
-	[STATE_NAME:ALL_SOLID:skin]
-	[STATE_ADJ:ALL_SOLID:skin]
+	[STATE_NAME:ALL_SOLID:pele]
+	[STATE_ADJ:ALL_SOLID:pele]
 	[STATE_COLOR:LIQUID:GRAY]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -189,7 +189,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] used data for human skin
+	[SHEAR_YIELD:20000] usados dados para pele humana
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -197,20 +197,20 @@ material_template_default
 	[BENDING_STRAIN_AT_YIELD:50000]
 	[MAX_EDGE:0]
 	[ABSORPTION:100]
-	This lets the game know to use this item to determine the exact material type for the leather product in the tanning reaction.
+	Isso permite que o jogo saiba como usar este item para determinar o tipo exato de material do produto de couro na rea‡„o de curtimento.
 	[MATERIAL_REACTION_PRODUCT:TAN_MAT:LOCAL_CREATURE_MAT:LEATHER]
 	[MATERIAL_REACTION_PRODUCT:PARCHMENT_MAT:LOCAL_CREATURE_MAT:PARCHMENT]
-	This lets the game know that an animal was likely killed in the production of this item.
+	Isso permite ao jogo saber que provavelmente um animal foi morto na produ‡„o deste item.
 	[IMPLIES_ANIMAL_KILL]
 	[ROTS]
 
 [MATERIAL_TEMPLATE:FAT_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:YELLOW]
-	[STATE_NAME:ALL_SOLID:fat]
-	[STATE_ADJ:ALL_SOLID:fatty]
+	[STATE_NAME:ALL_SOLID:gordura]
+	[STATE_ADJ:ALL_SOLID:gorduroso]
 	[STATE_COLOR:LIQUID:YELLOW]
-	[STATE_NAME:LIQUID:grease]
-	[STATE_ADJ:LIQUID:greasy]
+	[STATE_NAME:LIQUID:¢leo]
+	[STATE_ADJ:LIQUID:oleoso]
 	[STATE_COLOR:GAS:YELLOW]
 	[STATE_NAME:GAS:n/a]
 	[STATE_ADJ:GAS:n/a]
@@ -238,7 +238,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:10000] no data
+	[SHEAR_YIELD:10000] sem dados
 	[SHEAR_FRACTURE:10000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -257,8 +257,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:MUSCLE_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:MAUVE]
-	[STATE_NAME:ALL_SOLID:muscle]
-	[STATE_ADJ:ALL_SOLID:muscle]
+	[STATE_NAME:ALL_SOLID:m£sculo]
+	[STATE_ADJ:ALL_SOLID:m£sculo]
 	[STATE_COLOR:LIQUID:MAUVE]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -289,7 +289,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] used human skin
+	[SHEAR_YIELD:20000] usado pele humana
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -303,15 +303,15 @@ material_template_default
 	[MEAT]
 	[BUTCHER_SPECIAL:MEAT:NONE]
 	[MEAT_CATEGORY:STANDARD]
-	[MEAT_NAME:NONE:meat:meat]
-	This lets the game know that the item can be eaten in various ways.
+	[MEAT_NAME:NONE:carne:carne]
+	Isso permite ao jogo saber que o item pode ser consumido de v rias maneiras.
 	[EDIBLE_VERMIN]
 	[EDIBLE_COOKED]
 
 [MATERIAL_TEMPLATE:SINEW_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:PINK]
-	[STATE_NAME:ALL_SOLID:sinew]
-	[STATE_ADJ:ALL_SOLID:sinew]
+	[STATE_NAME:ALL_SOLID:tend„o]
+	[STATE_ADJ:ALL_SOLID:tend„o]
 	[STATE_COLOR:LIQUID:PINK]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -342,7 +342,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] used human skin
+	[SHEAR_YIELD:20000] usado pele humana
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -355,10 +355,10 @@ material_template_default
 
 [MATERIAL_TEMPLATE:BONE_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:WHITE]
-	[STATE_NAME:SOLID:bone]
-	[STATE_ADJ:SOLID:bone]
-	[STATE_NAME:POWDER:bone meal]
-	[STATE_ADJ:POWDER:bone meal]
+	[STATE_NAME:SOLID:osso]
+	[STATE_ADJ:SOLID:osso]
+	[STATE_NAME:POWDER:farinha de osso]
+	[STATE_ADJ:POWDER:farinha de osso]
 	[STATE_COLOR:LIQUID:WHITE]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -389,7 +389,7 @@ material_template_default
 	[TORSION_YIELD:115000]
 	[TORSION_FRACTURE:130000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:115000] used 'bone (limb)' from wikipedia tensile strength
+	[SHEAR_YIELD:115000] usado 'osso (membro)' da resistˆncia … tra‡„o da wikipedia
 	[SHEAR_FRACTURE:130000]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:115000]
@@ -404,8 +404,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:CARTILAGE_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:WHITE]
-	[STATE_NAME:ALL_SOLID:cartilage]
-	[STATE_ADJ:ALL_SOLID:cartilaginous]
+	[STATE_NAME:ALL_SOLID:cartilagem]
+	[STATE_ADJ:ALL_SOLID:cartilaginoso]
 	[STATE_COLOR:LIQUID:WHITE]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -436,7 +436,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:25000]
-	[SHEAR_YIELD:30000] from net someplace
+	[SHEAR_YIELD:30000] de algum lugar da rede
 	[SHEAR_FRACTURE:30000]
 	[SHEAR_STRAIN_AT_YIELD:25000]
 	[BENDING_YIELD:10000]
@@ -449,8 +449,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:HAIR_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GRAY]
-	[STATE_NAME:ALL_SOLID:hair]
-	[STATE_ADJ:ALL_SOLID:hair]
+	[STATE_NAME:ALL_SOLID:cabelo]
+	[STATE_ADJ:ALL_SOLID:cabelo]
 	[STATE_COLOR:LIQUID:GRAY]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -495,8 +495,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:FEATHER_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GRAY]
-	[STATE_NAME:ALL_SOLID:feather]
-	[STATE_ADJ:ALL_SOLID:feather]
+	[STATE_NAME:ALL_SOLID:pena]
+	[STATE_ADJ:ALL_SOLID:pena]
 	[STATE_COLOR:LIQUID:GRAY]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -540,8 +540,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:SCALE_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GRAY]
-	[STATE_NAME:ALL_SOLID:scale]
-	[STATE_ADJ:ALL_SOLID:scale]
+	[STATE_NAME:ALL_SOLID:escama]
+	[STATE_ADJ:ALL_SOLID:escama]
 	[STATE_COLOR:LIQUID:GRAY]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -585,8 +585,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:NAIL_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GRAY]
-	[STATE_NAME:ALL_SOLID:nail]
-	[STATE_ADJ:ALL_SOLID:nail]
+	[STATE_NAME:ALL_SOLID:unha]
+	[STATE_ADJ:ALL_SOLID:unha]
 	[STATE_COLOR:LIQUID:GRAY]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -605,7 +605,7 @@ material_template_default
 	[SOLID_DENSITY:500]
 	[LIQUID_DENSITY:NONE]
 	[MOLAR_MASS:NONE]
-	[IMPACT_YIELD:200000] used bone for all of these but more elastic, no data
+	[IMPACT_YIELD:200000] usado osso para tudos esses, mas mais el stico, sem dados
 	[IMPACT_FRACTURE:200000]
 	[IMPACT_STRAIN_AT_YIELD:5000]
 	[COMPRESSIVE_YIELD:200000]
@@ -630,8 +630,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:TOOTH_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:IVORY]
-	[STATE_NAME:ALL_SOLID:tooth]
-	[STATE_ADJ:ALL_SOLID:tooth]
+	[STATE_NAME:ALL_SOLID:dente]
+	[STATE_ADJ:ALL_SOLID:dente]
 	[STATE_COLOR:LIQUID:IVORY]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -650,7 +650,7 @@ material_template_default
 	[SOLID_DENSITY:500]
 	[LIQUID_DENSITY:NONE]
 	[MOLAR_MASS:NONE]
-	[IMPACT_YIELD:200000] copied bone, no data
+	[IMPACT_YIELD:200000] copiado de osso, sem dados
 	[IMPACT_FRACTURE:200000]
 	[IMPACT_STRAIN_AT_YIELD:100]
 	[COMPRESSIVE_YIELD:200000]
@@ -676,8 +676,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:EYE_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:WHITE]
-	[STATE_NAME:ALL_SOLID:eye tissue]
-	[STATE_ADJ:ALL_SOLID:eye tissue]
+	[STATE_NAME:ALL_SOLID:tecido ocular]
+	[STATE_ADJ:ALL_SOLID:tecido ocular]
 	[STATE_COLOR:LIQUID:WHITE]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -708,7 +708,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] copied human skin (no data)
+	[SHEAR_YIELD:20000] copiado de pele humana (sem dados)
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -721,14 +721,14 @@ material_template_default
 	[MEAT]
 	[BUTCHER_SPECIAL:MEAT:NONE]
 	[MEAT_CATEGORY:EYE]
-	[MEAT_NAME:prepared:eye:eye]
+	[MEAT_NAME:preparado:olho:olho]
 	[EDIBLE_VERMIN]
 	[EDIBLE_COOKED]
 
 [MATERIAL_TEMPLATE:NERVE_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GRAY]
-	[STATE_NAME:ALL_SOLID:nervous tissue]
-	[STATE_ADJ:ALL_SOLID:nervous tissue]
+	[STATE_NAME:ALL_SOLID:tecido nervoso]
+	[STATE_ADJ:ALL_SOLID:tecido nervoso]
 	[STATE_COLOR:LIQUID:GRAY]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -759,7 +759,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] copied human skin (no data)
+	[SHEAR_YIELD:20000] copiado de pele humana (sem dados)
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -773,8 +773,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:BRAIN_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GRAY]
-	[STATE_NAME:ALL_SOLID:brain]
-	[STATE_ADJ:ALL_SOLID:brain]
+	[STATE_NAME:ALL_SOLID:c‚rebro]
+	[STATE_ADJ:ALL_SOLID:c‚rebro]
 	[STATE_COLOR:LIQUID:GRAY]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -805,7 +805,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] copied human skin (no data)
+	[SHEAR_YIELD:20000] copiado de pele humana (sem dados)
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -819,14 +819,14 @@ material_template_default
 	[MEAT]
 	[BUTCHER_SPECIAL:MEAT:NONE]
 	[MEAT_CATEGORY:BRAIN]
-	[MEAT_NAME:prepared:brain:brain]
+	[MEAT_NAME:preparado:c‚rebro:c‚rebro]
 	[EDIBLE_VERMIN]
 	[EDIBLE_COOKED]
 
 [MATERIAL_TEMPLATE:LUNG_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:MAUVE]
-	[STATE_NAME:ALL_SOLID:lung tissue]
-	[STATE_ADJ:ALL_SOLID:lung tissue]
+	[STATE_NAME:ALL_SOLID:tecido pulmonar]
+	[STATE_ADJ:ALL_SOLID:tecido pulmonar]
 	[STATE_COLOR:LIQUID:MAUVE]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -857,7 +857,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] copied human skin (no data)
+	[SHEAR_YIELD:20000] copiado de pele humana (sem dados)
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -871,14 +871,14 @@ material_template_default
 	[MEAT]
 	[BUTCHER_SPECIAL:MEAT:NONE]
 	[MEAT_CATEGORY:LUNG]
-	[MEAT_NAME:prepared:lung:lung]
+	[MEAT_NAME:preparado:pulm„o:pulm„o]
 	[EDIBLE_VERMIN]
 	[EDIBLE_COOKED]
 
 [MATERIAL_TEMPLATE:HEART_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:MAUVE]
-	[STATE_NAME:ALL_SOLID:heart tissue]
-	[STATE_ADJ:ALL_SOLID:heart tissue]
+	[STATE_NAME:ALL_SOLID:tecido card¡aco]
+	[STATE_ADJ:ALL_SOLID:tecido card¡aco]
 	[STATE_COLOR:LIQUID:MAUVE]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -909,7 +909,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] copied human skin (no data)
+	[SHEAR_YIELD:20000] copiado de pele humana (sem dados)
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -923,14 +923,14 @@ material_template_default
 	[MEAT]
 	[BUTCHER_SPECIAL:MEAT:NONE]
 	[MEAT_CATEGORY:HEART]
-	[MEAT_NAME:prepared:heart:heart]
+	[MEAT_NAME:preparado:cora‡„o:cora‡„o]
 	[EDIBLE_VERMIN]
 	[EDIBLE_COOKED]
 
 [MATERIAL_TEMPLATE:LIVER_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:MAUVE_TAUPE]
-	[STATE_NAME:ALL_SOLID:liver tissue]
-	[STATE_ADJ:ALL_SOLID:liver tissue]
+	[STATE_NAME:ALL_SOLID:tecido hep tico]
+	[STATE_ADJ:ALL_SOLID:tecido hep tico]
 	[STATE_COLOR:LIQUID:MAUVE_TAUPE]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -961,7 +961,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] copied human skin (no data)
+	[SHEAR_YIELD:20000] copiado de pele humana (sem dados)
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -975,14 +975,14 @@ material_template_default
 	[MEAT]
 	[BUTCHER_SPECIAL:MEAT:NONE]
 	[MEAT_CATEGORY:LIVER]
-	[MEAT_NAME:chopped:liver:liver]
+	[MEAT_NAME:picado:f¡gado:f¡gado]
 	[EDIBLE_VERMIN]
 	[EDIBLE_COOKED]
 
 [MATERIAL_TEMPLATE:GUT_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:TAUPE_PALE]
-	[STATE_NAME:ALL_SOLID:gut]
-	[STATE_ADJ:ALL_SOLID:gut]
+	[STATE_NAME:ALL_SOLID:intestino]
+	[STATE_ADJ:ALL_SOLID:intestino]
 	[STATE_COLOR:LIQUID:TAUPE_PALE]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -1013,7 +1013,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] copied human skin (no data)
+	[SHEAR_YIELD:20000] copiado de pele humana (sem dados)
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -1027,14 +1027,14 @@ material_template_default
 	[MEAT]
 	[BUTCHER_SPECIAL:MEAT:NONE]
 	[MEAT_CATEGORY:INTESTINES]
-	[MEAT_NAME:prepared:intestines:intestines]
+	[MEAT_NAME:preparado:intestinos:intestinos]
 	[EDIBLE_VERMIN]
 	[EDIBLE_COOKED]
 
 [MATERIAL_TEMPLATE:STOMACH_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:PALE_PINK]
-	[STATE_NAME:ALL_SOLID:stomach tissue]
-	[STATE_ADJ:ALL_SOLID:stomach tissue]
+	[STATE_NAME:ALL_SOLID:tecido estomacal]
+	[STATE_ADJ:ALL_SOLID:tecido estomacal]
 	[STATE_COLOR:LIQUID:PALE_PINK]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -1065,7 +1065,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] copied human skin (no data)
+	[SHEAR_YIELD:20000] copiado de pele humana (sem dados)
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -1079,14 +1079,14 @@ material_template_default
 	[MEAT]
 	[BUTCHER_SPECIAL:MEAT:NONE]
 	[MEAT_CATEGORY:STOMACH]
-	[MEAT_NAME:NONE:tripe:tripe]
+	[MEAT_NAME:NONE:dobradinha:dobradinha]
 	[EDIBLE_VERMIN]
 	[EDIBLE_COOKED]
 
 [MATERIAL_TEMPLATE:GIZZARD_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:PALE_PINK]
-	[STATE_NAME:ALL_SOLID:gizzard tissue]
-	[STATE_ADJ:ALL_SOLID:gizzard tissue]
+	[STATE_NAME:ALL_SOLID:tecido da moela]
+	[STATE_ADJ:ALL_SOLID:tecido da moela]
 	[STATE_COLOR:LIQUID:PALE_PINK]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -1117,7 +1117,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] copied human skin (no data)
+	[SHEAR_YIELD:20000] copiado de pele humana (sem dados)
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -1131,14 +1131,14 @@ material_template_default
 	[MEAT]
 	[BUTCHER_SPECIAL:MEAT:NONE]
 	[MEAT_CATEGORY:GIZZARD]
-	[MEAT_NAME:prepared:gizzard:gizzard]
+	[MEAT_NAME:preparado:moela:moela]
 	[EDIBLE_VERMIN]
 	[EDIBLE_COOKED]
 
 [MATERIAL_TEMPLATE:PANCREAS_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:PEACH]
-	[STATE_NAME:ALL_SOLID:pancreatic tissue]
-	[STATE_ADJ:ALL_SOLID:pancreatic tissue]
+	[STATE_NAME:ALL_SOLID:tecido pancre tico]
+	[STATE_ADJ:ALL_SOLID:tecido pancre tico]
 	[STATE_COLOR:LIQUID:PEACH]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -1169,7 +1169,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] copied human skin (no data)
+	[SHEAR_YIELD:20000] copiado de pele humana (sem dados)
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -1183,14 +1183,14 @@ material_template_default
 	[MEAT]
 	[BUTCHER_SPECIAL:MEAT:NONE]
 	[MEAT_CATEGORY:PANCREAS]
-	[MEAT_NAME:NONE:sweetbread:sweetbread]
+	[MEAT_NAME:NONE:moleja:moleja]
 	[EDIBLE_VERMIN]
 	[EDIBLE_COOKED]
 
 [MATERIAL_TEMPLATE:SPLEEN_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:MAUVE_TAUPE]
-	[STATE_NAME:ALL_SOLID:spleen tissue]
-	[STATE_ADJ:ALL_SOLID:spleen tissue]
+	[STATE_NAME:ALL_SOLID:tecido do ba‡o]
+	[STATE_ADJ:ALL_SOLID:tecido do ba‡o]
 	[STATE_COLOR:LIQUID:MAUVE_TAUPE]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -1221,7 +1221,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] copied human skin (no data)
+	[SHEAR_YIELD:20000] copiado de pele humana (sem dados)
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -1235,14 +1235,14 @@ material_template_default
 	[MEAT]
 	[BUTCHER_SPECIAL:MEAT:NONE]
 	[MEAT_CATEGORY:SPLEEN]
-	[MEAT_NAME:prepared:spleen:spleen]
+	[MEAT_NAME:preparado:ba‡o:ba‡o]
 	[EDIBLE_VERMIN]
 	[EDIBLE_COOKED]
 
 [MATERIAL_TEMPLATE:KIDNEY_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:ECRU]
-	[STATE_NAME:ALL_SOLID:kidney tissue]
-	[STATE_ADJ:ALL_SOLID:kidney tissue]
+	[STATE_NAME:ALL_SOLID:tecido renal]
+	[STATE_ADJ:ALL_SOLID:tecido renal]
 	[STATE_COLOR:LIQUID:ECRU]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -1273,7 +1273,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] copied human skin (no data)
+	[SHEAR_YIELD:20000] copiado de pele humana (sem dados)
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -1287,14 +1287,14 @@ material_template_default
 	[MEAT]
 	[BUTCHER_SPECIAL:MEAT:NONE]
 	[MEAT_CATEGORY:KIDNEY]
-	[MEAT_NAME:prepared:kidney:kidney]
+	[MEAT_NAME:preparado:rim:rim]
 	[EDIBLE_VERMIN]
 	[EDIBLE_COOKED]
 
 [MATERIAL_TEMPLATE:LEATHER_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:BROWN]
-	[STATE_NAME:ALL_SOLID:leather]
-	[STATE_ADJ:ALL_SOLID:leather]
+	[STATE_NAME:ALL_SOLID:couro]
+	[STATE_ADJ:ALL_SOLID:couro]
 	[STATE_COLOR:LIQUID:BROWN]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -1325,7 +1325,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:25000] -- was 15 to 37 MPa in animal byproducts net pdf
+	[SHEAR_YIELD:25000] -- foi de 15 a 37 MPa em subprodutos animais rede pdf
 	[SHEAR_FRACTURE:25000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -1339,8 +1339,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:PARCHMENT_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:WHITE]
-	[STATE_NAME:ALL_SOLID:parchment]
-	[STATE_ADJ:ALL_SOLID:parchment]
+	[STATE_NAME:ALL_SOLID:pergaminho]
+	[STATE_ADJ:ALL_SOLID:pergaminho]
 	[STATE_COLOR:LIQUID:WHITE]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -1371,7 +1371,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:25000] -- was 15 to 37 MPa in animal byproducts net pdf
+	[SHEAR_YIELD:25000] -- foi de 15 a 37 MPa em subprodutos animais rede pdf
 	[SHEAR_FRACTURE:25000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -1384,8 +1384,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:HORN_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GRAY]
-	[STATE_NAME:ALL_SOLID:horn]
-	[STATE_ADJ:ALL_SOLID:horn]
+	[STATE_NAME:ALL_SOLID:chifre]
+	[STATE_ADJ:ALL_SOLID:chifre]
 	[STATE_COLOR:LIQUID:GRAY]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -1404,7 +1404,7 @@ material_template_default
 	[SOLID_DENSITY:500]
 	[LIQUID_DENSITY:NONE]
 	[MOLAR_MASS:NONE]
-	[IMPACT_YIELD:200000] used bone for all of these, no data
+	[IMPACT_YIELD:200000] usado osso para todos esses, sem dados
 	[IMPACT_FRACTURE:200000]
 	[IMPACT_STRAIN_AT_YIELD:100]
 	[COMPRESSIVE_YIELD:200000]
@@ -1430,8 +1430,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:HOOF_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GRAY]
-	[STATE_NAME:ALL_SOLID:hoof]
-	[STATE_ADJ:ALL_SOLID:hoof]
+	[STATE_NAME:ALL_SOLID:casco]
+	[STATE_ADJ:ALL_SOLID:casco]
 	[STATE_COLOR:LIQUID:GRAY]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -1450,7 +1450,7 @@ material_template_default
 	[SOLID_DENSITY:500]
 	[LIQUID_DENSITY:NONE]
 	[MOLAR_MASS:NONE]
-	[IMPACT_YIELD:200000] used bone for all of these, no data
+	[IMPACT_YIELD:200000] usado osso para todos esses, sem dados
 	[IMPACT_FRACTURE:200000]
 	[IMPACT_STRAIN_AT_YIELD:100]
 	[COMPRESSIVE_YIELD:200000]
@@ -1471,14 +1471,14 @@ material_template_default
 	[MAX_EDGE:1000]
 	[ABSORPTION:100]
 	[IMPLIES_ANIMAL_KILL]
-	[HORN] for use
-	[HOOF] for display
+	[HORN] para usar
+	[HOOF] para exibir
 	[ITEMS_HARD]
 
 [MATERIAL_TEMPLATE:PEARL_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:WHITE]
-	[STATE_NAME:ALL_SOLID:pearl]
-	[STATE_ADJ:ALL_SOLID:pearl]
+	[STATE_NAME:ALL_SOLID:p‚rola]
+	[STATE_ADJ:ALL_SOLID:p‚rola]
 	[STATE_COLOR:LIQUID:WHITE]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -1497,7 +1497,7 @@ material_template_default
 	[SOLID_DENSITY:500]
 	[LIQUID_DENSITY:NONE]
 	[MOLAR_MASS:NONE]
-	[IMPACT_YIELD:120000] used stone, no data
+	[IMPACT_YIELD:120000] usado pedra, sem dados
 	[IMPACT_FRACTURE:120000]
 	[IMPACT_STRAIN_AT_YIELD:100]
 	[COMPRESSIVE_YIELD:120000]
@@ -1522,8 +1522,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:SILK_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:WHITE]
-	[STATE_NAME:ALL_SOLID:silk]
-	[STATE_ADJ:ALL_SOLID:silk]
+	[STATE_NAME:ALL_SOLID:seda]
+	[STATE_ADJ:ALL_SOLID:seda]
 	[STATE_COLOR:LIQUID:WHITE]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -1554,7 +1554,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100000]
-	[SHEAR_YIELD:1150000] used spider silk from wikipedia
+	[SHEAR_YIELD:1150000] usado seda de aranha da wikipedia
 	[SHEAR_FRACTURE:1200000]
 	[SHEAR_STRAIN_AT_YIELD:100000]
 	[BENDING_YIELD:10000]
@@ -1567,14 +1567,14 @@ material_template_default
 
 [MATERIAL_TEMPLATE:BLOOD_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:CARMINE]
-	[STATE_NAME:ALL_SOLID:frozen blood]
-	[STATE_ADJ:ALL_SOLID:frozen blood]
+	[STATE_NAME:ALL_SOLID:sangue congelado]
+	[STATE_ADJ:ALL_SOLID:sangue congelado]
 	[STATE_COLOR:LIQUID:CARMINE]
-	[STATE_NAME:LIQUID:blood]
-	[STATE_ADJ:LIQUID:blood]
+	[STATE_NAME:LIQUID:sangue]
+	[STATE_ADJ:LIQUID:sangue]
 	[STATE_COLOR:GAS:CARMINE]
-	[STATE_NAME:GAS:boiling blood]
-	[STATE_ADJ:GAS:boiling blood]
+	[STATE_NAME:GAS:vapor de sangue]
+	[STATE_ADJ:GAS:vapor de sangue]
 	[DISPLAY_COLOR:4:0:0]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
@@ -1599,7 +1599,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -1613,14 +1613,14 @@ material_template_default
 
 [MATERIAL_TEMPLATE:ICHOR_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:WHITE]
-	[STATE_NAME:ALL_SOLID:frozen ichor]
-	[STATE_ADJ:ALL_SOLID:frozen ichor]
+	[STATE_NAME:ALL_SOLID:¡cor congelado]
+	[STATE_ADJ:ALL_SOLID:¡cor congelado]
 	[STATE_COLOR:LIQUID:WHITE]
-	[STATE_NAME:LIQUID:ichor]
-	[STATE_ADJ:LIQUID:ichor]
+	[STATE_NAME:LIQUID:¡cor]
+	[STATE_ADJ:LIQUID:¡cor]
 	[STATE_COLOR:GAS:WHITE]
-	[STATE_NAME:GAS:boiling ichor]
-	[STATE_ADJ:GAS:boiling ichor]
+	[STATE_NAME:GAS:vapor de ¡cor]
+	[STATE_ADJ:GAS:vapor de ¡cor]
 	[DISPLAY_COLOR:7:0:1]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
@@ -1645,7 +1645,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -1659,14 +1659,14 @@ material_template_default
 
 [MATERIAL_TEMPLATE:GOO_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:BLACK]
-	[STATE_NAME:ALL_SOLID:frozen goo]
-	[STATE_ADJ:ALL_SOLID:frozen goo]
+	[STATE_NAME:ALL_SOLID:gosma congelada]
+	[STATE_ADJ:ALL_SOLID:gosma congelada]
 	[STATE_COLOR:LIQUID:BLACK]
-	[STATE_NAME:LIQUID:goo]
-	[STATE_ADJ:LIQUID:goo]
+	[STATE_NAME:LIQUID:gosma]
+	[STATE_ADJ:LIQUID:gosma]
 	[STATE_COLOR:GAS:BLACK]
-	[STATE_NAME:GAS:boiling goo]
-	[STATE_ADJ:GAS:boiling goo]
+	[STATE_NAME:GAS:vapor de gosma]
+	[STATE_ADJ:GAS:vapor de gosma]
 	[DISPLAY_COLOR:0:0:0]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
@@ -1691,7 +1691,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -1705,14 +1705,14 @@ material_template_default
 
 [MATERIAL_TEMPLATE:SLIME_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:YELLOW_GREEN]
-	[STATE_NAME:ALL_SOLID:frozen slime]
-	[STATE_ADJ:ALL_SOLID:frozen slime]
+	[STATE_NAME:ALL_SOLID:lodo congelado]
+	[STATE_ADJ:ALL_SOLID:lodo congelado]
 	[STATE_COLOR:LIQUID:YELLOW_GREEN]
-	[STATE_NAME:LIQUID:slime]
-	[STATE_ADJ:LIQUID:slime]
+	[STATE_NAME:LIQUID:lodo]
+	[STATE_ADJ:LIQUID:lodo]
 	[STATE_COLOR:GAS:YELLOW_GREEN]
-	[STATE_NAME:GAS:boiling slime]
-	[STATE_ADJ:GAS:boiling slime]
+	[STATE_NAME:GAS:vapor de lodo]
+	[STATE_ADJ:GAS:vapor de lodo]
 	[DISPLAY_COLOR:2:0:0]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
@@ -1737,7 +1737,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -1750,14 +1750,14 @@ material_template_default
 
 [MATERIAL_TEMPLATE:PUS_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:CREAM]
-	[STATE_NAME:ALL_SOLID:frozen pus]
-	[STATE_ADJ:ALL_SOLID:frozen pus]
+	[STATE_NAME:ALL_SOLID:pus congelado]
+	[STATE_ADJ:ALL_SOLID:pus congelado]
 	[STATE_COLOR:LIQUID:CREAM]
 	[STATE_NAME:LIQUID:pus]
 	[STATE_ADJ:LIQUID:pus]
 	[STATE_COLOR:GAS:CREAM]
-	[STATE_NAME:GAS:boiling pus]
-	[STATE_ADJ:GAS:boiling pus]
+	[STATE_NAME:GAS:vapor de pus]
+	[STATE_ADJ:GAS:vapor de pus]
 	[DISPLAY_COLOR:7:0:0]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
@@ -1782,7 +1782,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -1796,8 +1796,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:SHELL_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:DARK_GREEN]
-	[STATE_NAME:ALL_SOLID:shell]
-	[STATE_ADJ:ALL_SOLID:shell]
+	[STATE_NAME:ALL_SOLID:concha]
+	[STATE_ADJ:ALL_SOLID:concha]
 	[STATE_COLOR:LIQUID:DARK_GREEN]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -1816,7 +1816,7 @@ material_template_default
 	[SOLID_DENSITY:500]
 	[LIQUID_DENSITY:NONE]
 	[MOLAR_MASS:NONE]
-	[IMPACT_YIELD:200000] used bone for all of these, no data
+	[IMPACT_YIELD:200000] usado osso para todos esses, sem dados
 	[IMPACT_FRACTURE:200000]
 	[IMPACT_STRAIN_AT_YIELD:100]
 	[COMPRESSIVE_YIELD:200000]
@@ -1843,11 +1843,11 @@ material_template_default
 
 [MATERIAL_TEMPLATE:SOAP_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:CREAM]
-	[STATE_NAME:ALL_SOLID:soap]
-	[STATE_ADJ:ALL_SOLID:soap]
+	[STATE_NAME:ALL_SOLID:sab„o]
+	[STATE_ADJ:ALL_SOLID:sab„o]
 	[STATE_COLOR:LIQUID:CREAM]
-	[STATE_NAME:LIQUID:melted soap]
-	[STATE_ADJ:LIQUID:melted soap]
+	[STATE_NAME:LIQUID:sab„o derretido]
+	[STATE_ADJ:LIQUID:sab„o derretido]
 	[STATE_COLOR:GAS:CREAM]
 	[STATE_NAME:GAS:n/a]
 	[STATE_ADJ:GAS:n/a]
@@ -1875,7 +1875,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:10000] no data
+	[SHEAR_YIELD:10000] sem dados
 	[SHEAR_FRACTURE:10000]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -1889,11 +1889,11 @@ material_template_default
 
 [MATERIAL_TEMPLATE:TALLOW_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:CREAM]
-	[STATE_NAME:ALL_SOLID:tallow]
-	[STATE_ADJ:ALL_SOLID:tallow]
+	[STATE_NAME:ALL_SOLID:sebo]
+	[STATE_ADJ:ALL_SOLID:sebo]
 	[STATE_COLOR:LIQUID:CREAM]
-	[STATE_NAME:LIQUID:melted tallow]
-	[STATE_ADJ:LIQUID:melted tallow]
+	[STATE_NAME:LIQUID:sebo derretido]
+	[STATE_ADJ:LIQUID:sebo derretido]
 	[STATE_COLOR:GAS:CREAM]
 	[STATE_NAME:GAS:n/a]
 	[STATE_ADJ:GAS:n/a]
@@ -1924,7 +1924,7 @@ material_template_default
 	[SHEAR_YIELD:10000]
 	[SHEAR_FRACTURE:10000]
 	[SHEAR_STRAIN_AT_YIELD:100]
-	[BENDING_YIELD:10000] no data
+	[BENDING_YIELD:10000] sem dados
 	[BENDING_FRACTURE:10000]
 	[BENDING_STRAIN_AT_YIELD:100]
 	[MAX_EDGE:0]
@@ -1939,8 +1939,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:CHITIN_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GRAY]
-	[STATE_NAME:ALL_SOLID:chitin]
-	[STATE_ADJ:ALL_SOLID:chitin]
+	[STATE_NAME:ALL_SOLID:quitina]
+	[STATE_ADJ:ALL_SOLID:quitina]
 	[STATE_COLOR:LIQUID:GRAY]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -1971,7 +1971,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:115000] used bone, no data
+	[SHEAR_YIELD:115000] usado osso, sem dados
 	[SHEAR_FRACTURE:130000]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -1984,11 +1984,11 @@ material_template_default
 
 [MATERIAL_TEMPLATE:MILK_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:WHITE]
-	[STATE_NAME:ALL_SOLID:frozen milk]
-	[STATE_ADJ:ALL_SOLID:frozen milky]
+	[STATE_NAME:ALL_SOLID:leite congelado]
+	[STATE_ADJ:ALL_SOLID:leitoso congelado]
 	[STATE_COLOR:LIQUID:WHITE]
-	[STATE_NAME:LIQUID:milk]
-	[STATE_ADJ:LIQUID:milky]
+	[STATE_NAME:LIQUID:leite]
+	[STATE_ADJ:LIQUID:leitoso]
 	[STATE_COLOR:GAS:WHITE]
 	[STATE_NAME:GAS:n/a]
 	[STATE_ADJ:GAS:n/a]
@@ -2016,7 +2016,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -2035,11 +2035,11 @@ material_template_default
 
 [MATERIAL_TEMPLATE:CREATURE_CHEESE_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:YELLOW]
-	[STATE_NAME:ALL_SOLID:cheese]
-	[STATE_ADJ:ALL_SOLID:cheesy]
+	[STATE_NAME:ALL_SOLID:queijo]
+	[STATE_ADJ:ALL_SOLID:queijoso]
 	[STATE_COLOR:LIQUID:YELLOW]
-	[STATE_NAME:LIQUID:melted cheese]
-	[STATE_ADJ:LIQUID:melted cheesy]
+	[STATE_NAME:LIQUID:queijo derretido]
+	[STATE_ADJ:LIQUID:queijoso derretido]
 	[STATE_COLOR:GAS:YELLOW]
 	[STATE_NAME:GAS:n/a]
 	[STATE_ADJ:GAS:n/a]
@@ -2067,7 +2067,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:10000] no data
+	[SHEAR_YIELD:10000] sem dados
 	[SHEAR_FRACTURE:10000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -2085,8 +2085,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:STRUCTURAL_PLANT_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:BROWN]
-	[STATE_NAME:ALL_SOLID:plant]
-	[STATE_ADJ:ALL_SOLID:plant]
+	[STATE_NAME:ALL_SOLID:planta]
+	[STATE_ADJ:ALL_SOLID:plantado]
 	[STATE_COLOR:LIQUID:BROWN]
 	[STATE_NAME:LIQUID:none]
 	[STATE_ADJ:LIQUID:none]
@@ -2117,7 +2117,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:1000]
-	[SHEAR_YIELD:40000] used pine
+	[SHEAR_YIELD:40000] usado pinho
 	[SHEAR_FRACTURE:40000]
 	[SHEAR_STRAIN_AT_YIELD:1000]
 	[BENDING_YIELD:10000]
@@ -2130,8 +2130,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:SEED_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:BROWN]
-	[STATE_NAME:ALL_SOLID:seed]
-	[STATE_ADJ:ALL_SOLID:seed]
+	[STATE_NAME:ALL_SOLID:semente]
+	[STATE_ADJ:ALL_SOLID:sementado]
 	[STATE_COLOR:LIQUID:BROWN]
 	[STATE_NAME:LIQUID:none]
 	[STATE_ADJ:LIQUID:none]
@@ -2162,7 +2162,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:1000]
-	[SHEAR_YIELD:40000] used pine
+	[SHEAR_YIELD:40000] usado pinho
 	[SHEAR_FRACTURE:40000]
 	[SHEAR_STRAIN_AT_YIELD:1000]
 	[BENDING_YIELD:10000]
@@ -2175,8 +2175,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:LEAF_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GREEN]
-	[STATE_NAME:ALL_SOLID:leaf]
-	[STATE_ADJ:ALL_SOLID:leaf]
+	[STATE_NAME:ALL_SOLID:folha]
+	[STATE_ADJ:ALL_SOLID:folhado]
 	[STATE_COLOR:LIQUID:BLACK]
 	[STATE_NAME:LIQUID:none]
 	[STATE_ADJ:LIQUID:none]
@@ -2207,7 +2207,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] average value of some species found online
+	[SHEAR_YIELD:20000] valor m‚dio de algumas esp‚cies encontradas online
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -2219,8 +2219,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:FRUIT_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GREEN]
-	[STATE_NAME:ALL_SOLID:fruit]
-	[STATE_ADJ:ALL_SOLID:fruit]
+	[STATE_NAME:ALL_SOLID:fruta]
+	[STATE_ADJ:ALL_SOLID:frutado]
 	[STATE_COLOR:LIQUID:BLACK]
 	[STATE_NAME:LIQUID:none]
 	[STATE_ADJ:LIQUID:none]
@@ -2251,7 +2251,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] average value of some species found online
+	[SHEAR_YIELD:20000] valor m‚dio de algumas esp‚cies encontradas online
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -2263,8 +2263,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:BUD_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GREEN]
-	[STATE_NAME:ALL_SOLID:bud]
-	[STATE_ADJ:ALL_SOLID:bud]
+	[STATE_NAME:ALL_SOLID:broto]
+	[STATE_ADJ:ALL_SOLID:de broto]
 	[STATE_COLOR:LIQUID:BLACK]
 	[STATE_NAME:LIQUID:none]
 	[STATE_ADJ:LIQUID:none]
@@ -2295,7 +2295,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] average value of some species found online
+	[SHEAR_YIELD:20000] valor m‚dio de algumas esp‚cies encontradas online
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -2307,8 +2307,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:MUSHROOM_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GREEN]
-	[STATE_NAME:ALL_SOLID:mushroom]
-	[STATE_ADJ:ALL_SOLID:mushroom]
+	[STATE_NAME:ALL_SOLID:cogumelo]
+	[STATE_ADJ:ALL_SOLID:cogumelado]
 	[STATE_COLOR:LIQUID:BLACK]
 	[STATE_NAME:LIQUID:none]
 	[STATE_ADJ:LIQUID:none]
@@ -2339,7 +2339,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] average value of some species found online
+	[SHEAR_YIELD:20000] valor m‚dio de algumas esp‚cies encontradas online
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -2351,8 +2351,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:FLOWER_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GREEN]
-	[STATE_NAME:ALL_SOLID:flower]
-	[STATE_ADJ:ALL_SOLID:flower]
+	[STATE_NAME:ALL_SOLID:flor]
+	[STATE_ADJ:ALL_SOLID:florado]
 	[STATE_COLOR:LIQUID:BLACK]
 	[STATE_NAME:LIQUID:none]
 	[STATE_ADJ:LIQUID:none]
@@ -2383,7 +2383,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:20000] average value of some species found online
+	[SHEAR_YIELD:20000] valor m‚dio de algumas esp‚cies encontradas online
 	[SHEAR_FRACTURE:20000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -2395,8 +2395,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:THREAD_PLANT_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:GRAY]
-	[STATE_NAME:ALL_SOLID:fiber]
-	[STATE_ADJ:ALL_SOLID:fiber]
+	[STATE_NAME:ALL_SOLID:fibra]
+	[STATE_ADJ:ALL_SOLID:de fibra]
 	[STATE_COLOR:LIQUID:BLACK]
 	[STATE_NAME:LIQUID:none]
 	[STATE_ADJ:LIQUID:none]
@@ -2427,8 +2427,8 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100000]
-	[SHEAR_YIELD:600000] used cotton
-	[SHEAR_FRACTURE:600000] used cotton
+	[SHEAR_YIELD:600000] usado algod„o
+	[SHEAR_FRACTURE:600000] usado algod„o
 	[SHEAR_STRAIN_AT_YIELD:100000]
 	[BENDING_YIELD:10000]
 	[BENDING_FRACTURE:10000]
@@ -2440,14 +2440,14 @@ material_template_default
 
 [MATERIAL_TEMPLATE:PLANT_ALCOHOL_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:BROWN]
-	[STATE_NAME:ALL_SOLID:frozen alcohol]
-	[STATE_ADJ:ALL_SOLID:frozen alcohol]
+	[STATE_NAME:ALL_SOLID: lcool congelado]
+	[STATE_ADJ:ALL_SOLID: lcool congelado]
 	[STATE_COLOR:LIQUID:BROWN]
-	[STATE_NAME:LIQUID:alcohol]
-	[STATE_ADJ:LIQUID:alcohol]
+	[STATE_NAME:LIQUID: lcool]
+	[STATE_ADJ:LIQUID: lcool]
 	[STATE_COLOR:GAS:BROWN]
-	[STATE_NAME:GAS:boiling alcohol]
-	[STATE_ADJ:GAS:boiling alcohol]
+	[STATE_NAME:GAS:vapor de  lcool]
+	[STATE_ADJ:GAS:vapor de  lcool]
 	[DISPLAY_COLOR:6:0:0]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:2440]
@@ -2472,7 +2472,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -2482,7 +2482,7 @@ material_template_default
 	[ABSORPTION:100]
 	[ALCOHOL_PLANT]
 	[SYNDROME]
-		[SYN_NAME:inebriation]
+		[SYN_NAME:embriaguez]
 		[SYN_IDENTIFIER:INEBRIATION]
 		[SYN_AFFECTED_CLASS:GENERAL_POISON]
 		[SYN_INGESTED]
@@ -2490,7 +2490,7 @@ material_template_default
 		[SYN_NO_HOSPITAL]
 		[SYN_CONCENTRATION_ADDED:100:1000]
 		[CE_NAUSEA:SEV:35:PROB:100:SIZE_DILUTES:START:120:PEAK:480:END:1200:DWF_STRETCH:4]
-		[CE_DIZZINESS:SEV:50:PROB:100:SIZE_DILUTES:START:20:PEAK:240:END:600:DWF_STRETCH:4] for ataxia
+		[CE_DIZZINESS:SEV:50:PROB:100:SIZE_DILUTES:START:20:PEAK:240:END:600:DWF_STRETCH:4] para ataxia
 		[CE_UNCONSCIOUSNESS:SEV:25:PROB:100:SIZE_DILUTES:START:120:PEAK:480:END:1200:DWF_STRETCH:4]
 		[CE_CHANGE_PERSONALITY:FACET:BASHFUL:-50:FACET:PRIVACY:-50:FACET:BRAVERY:25:FACET:CONFIDENCE:25:FACET:POLITENESS:-25:FACET:THOUGHTLESSNESS:25:PROB:100:SIZE_DILUTES:START:10:PEAK:120:END:480:DWF_STRETCH:4]
 		[CE_FEEL_EMOTION:EMOTION:EUPHORIA:SEV:75:PROB:100:SIZE_DILUTES:START:10:PEAK:120:END:480:DWF_STRETCH:4]
@@ -2499,8 +2499,8 @@ material_template_default
 
 [MATERIAL_TEMPLATE:PLANT_POWDER_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:WHITE]
-	[STATE_NAME:ALL_SOLID:plant powder]
-	[STATE_ADJ:ALL_SOLID:plant powder]
+	[STATE_NAME:ALL_SOLID:p¢ vegetal]
+	[STATE_ADJ:ALL_SOLID:p¢ vegetal]
 	[STATE_COLOR:LIQUID:BLACK]
 	[STATE_NAME:LIQUID:none]
 	[STATE_ADJ:LIQUID:none]
@@ -2531,7 +2531,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:1000]
-	[SHEAR_YIELD:10000] no data
+	[SHEAR_YIELD:10000] sem dados
 	[SHEAR_FRACTURE:10000]
 	[SHEAR_STRAIN_AT_YIELD:1000]
 	[BENDING_YIELD:10000]
@@ -2543,14 +2543,14 @@ material_template_default
 
 [MATERIAL_TEMPLATE:PLANT_EXTRACT_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:WHITE]
-	[STATE_NAME:ALL_SOLID:frozen extract]
-	[STATE_ADJ:ALL_SOLID:frozen extract]
+	[STATE_NAME:ALL_SOLID:extrato congelado]
+	[STATE_ADJ:ALL_SOLID:extrato congelado]
 	[STATE_COLOR:LIQUID:WHITE]
-	[STATE_NAME:LIQUID:extract]
-	[STATE_ADJ:LIQUID:extract]
+	[STATE_NAME:LIQUID:extrato]
+	[STATE_ADJ:LIQUID:extrato]
 	[STATE_COLOR:GAS:WHITE]
-	[STATE_NAME:GAS:boiling extract]
-	[STATE_ADJ:GAS:boiling extract]
+	[STATE_NAME:GAS:vapor de extrato]
+	[STATE_ADJ:GAS:vapor de extrato]
 	[DISPLAY_COLOR:7:0:1]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
@@ -2575,7 +2575,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -2588,14 +2588,14 @@ material_template_default
 
 [MATERIAL_TEMPLATE:CREATURE_EXTRACT_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:WHITE]
-	[STATE_NAME:ALL_SOLID:frozen extract]
-	[STATE_ADJ:ALL_SOLID:frozen extract]
+	[STATE_NAME:ALL_SOLID:extrato congelado]
+	[STATE_ADJ:ALL_SOLID:extrato congelado]
 	[STATE_COLOR:LIQUID:WHITE]
-	[STATE_NAME:LIQUID:extract]
-	[STATE_ADJ:LIQUID:extract]
+	[STATE_NAME:LIQUID:extrato]
+	[STATE_ADJ:LIQUID:extrato]
 	[STATE_COLOR:GAS:WHITE]
-	[STATE_NAME:GAS:boiling extract]
-	[STATE_ADJ:GAS:boiling extract]
+	[STATE_NAME:GAS:vapor de extrato]
+	[STATE_ADJ:GAS:vapor de extrato]
 	[DISPLAY_COLOR:7:0:1]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
@@ -2620,7 +2620,7 @@ material_template_default
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -2631,11 +2631,11 @@ material_template_default
 	[LIQUID_MISC_CREATURE]
 	[ROTS]
 
-This is for creatures that are "made of fire".  Right now there isn't a good format for that.
+Isto ‚ para criaturas que s„o "feitas de fogo". No momento n„o existe um bom formato para isso.
 [MATERIAL_TEMPLATE:FLAME_TEMPLATE]
 	[STATE_COLOR:GAS:RED]
-	[STATE_NAME:GAS:flames]
-	[STATE_ADJ:GAS:flames]
+	[STATE_NAME:GAS:chamas]
+	[STATE_ADJ:GAS:de chamas]
 	[DISPLAY_COLOR:4:0:1]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
@@ -2648,16 +2648,16 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[MOLAR_MASS:1]
 
 [MATERIAL_TEMPLATE:SOIL_TEMPLATE]
-	Just copied stone for now, but removed ITEMS_QUERN/HARD
+	Apenas copiado de pedra por enquanto, mas removido ITEMS_QUERN/HARD
 	[STATE_COLOR:ALL_SOLID:GRAY]
-	[STATE_NAME:ALL_SOLID:soil]
-	[STATE_ADJ:ALL_SOLID:soil]
+	[STATE_NAME:ALL_SOLID:solo]
+	[STATE_ADJ:ALL_SOLID:solo]
 	[STATE_COLOR:LIQUID:ORANGE]
 	[STATE_NAME:LIQUID:magma]
 	[STATE_ADJ:LIQUID:magma]
 	[STATE_COLOR:GAS:ORANGE]
-	[STATE_NAME:GAS:boiling magma]
-	[STATE_ADJ:GAS:boiling magma]
+	[STATE_NAME:GAS:vapor de magma]
+	[STATE_ADJ:GAS:vapor de magma]
 	[DISPLAY_COLOR:7:0:0]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:800]
@@ -2670,7 +2670,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[SOLID_DENSITY:2670]
 	[LIQUID_DENSITY:3300]
 	[MOLAR_MASS:36000]
-	[IMPACT_YIELD:120000] used marble
+	[IMPACT_YIELD:120000] usado m rmore
 	[IMPACT_FRACTURE:120000]
 	[IMPACT_STRAIN_AT_YIELD:100]
 	[COMPRESSIVE_YIELD:120000]
@@ -2682,7 +2682,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[TORSION_YIELD:15000]
 	[TORSION_FRACTURE:15000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:15000] used marble
+	[SHEAR_YIELD:15000] usado m rmore
 	[SHEAR_FRACTURE:15000]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:15000]
@@ -2693,10 +2693,10 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 
 [MATERIAL_TEMPLATE:EGGSHELL_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:WHITE]
-	[STATE_NAME:SOLID:eggshell]
-	[STATE_ADJ:SOLID:eggshell]
-	[STATE_NAME:POWDER:eggshell powder]
-	[STATE_ADJ:POWDER:eggshell powder]
+	[STATE_NAME:SOLID:casca de ovo]
+	[STATE_ADJ:SOLID:casca de ovo]
+	[STATE_NAME:POWDER:p¢ de casca de ovo]
+	[STATE_ADJ:POWDER:p¢ de casca de ovo]
 	[STATE_COLOR:LIQUID:WHITE]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -2718,7 +2718,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[IMPACT_YIELD:200000]
 	[IMPACT_FRACTURE:200000]
 	[IMPACT_STRAIN_AT_YIELD:100]
-	[COMPRESSIVE_YIELD:200000] copied bone
+	[COMPRESSIVE_YIELD:200000] copiado de osso
 	[COMPRESSIVE_FRACTURE:200000]
 	[COMPRESSIVE_STRAIN_AT_YIELD:100]
 	[TENSILE_YIELD:115000]
@@ -2727,7 +2727,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[TORSION_YIELD:115000]
 	[TORSION_FRACTURE:130000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:115000] copied bone
+	[SHEAR_YIELD:115000] copiado de osso
 	[SHEAR_FRACTURE:130000]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:115000]
@@ -2740,14 +2740,14 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 
 [MATERIAL_TEMPLATE:EGG_WHITE_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:CLEAR]
-	[STATE_NAME:ALL_SOLID:frozen egg white]
-	[STATE_ADJ:ALL_SOLID:frozen egg white]
+	[STATE_NAME:ALL_SOLID:clara de ovo congelada]
+	[STATE_ADJ:ALL_SOLID:clara de ovo congelada]
 	[STATE_COLOR:LIQUID:CLEAR]
-	[STATE_NAME:LIQUID:egg white]
-	[STATE_ADJ:LIQUID:egg white]
+	[STATE_NAME:LIQUID:clara de ovo]
+	[STATE_ADJ:LIQUID:clara de ovo]
 	[STATE_COLOR:GAS:CLEAR]
-	[STATE_NAME:GAS:boiling egg white]
-	[STATE_ADJ:GAS:boiling egg white]
+	[STATE_NAME:GAS:vapor de clara de ovo]
+	[STATE_ADJ:GAS:vapor de clara de ovo]
 	[DISPLAY_COLOR:7:0:1]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
@@ -2758,7 +2758,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[COLDDAM_POINT:9900]
 	[MAT_FIXED_TEMP:NONE]
 	[SOLID_DENSITY:500]
-	[LIQUID_DENSITY:1086] Heph located this one
+	[LIQUID_DENSITY:1086] Heph localizou este
 	[MOLAR_MASS:NONE]
 	[IMPACT_YIELD:10000]
 	[IMPACT_FRACTURE:10000]
@@ -2772,7 +2772,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -2787,14 +2787,14 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 
 [MATERIAL_TEMPLATE:EGG_YOLK_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:YELLOW]
-	[STATE_NAME:ALL_SOLID:frozen egg yolk]
-	[STATE_ADJ:ALL_SOLID:frozen egg yolk]
+	[STATE_NAME:ALL_SOLID:gema de ovo congelada]
+	[STATE_ADJ:ALL_SOLID:gema de ovo congelada]
 	[STATE_COLOR:LIQUID:YELLOW]
-	[STATE_NAME:LIQUID:egg yolk]
-	[STATE_ADJ:LIQUID:egg yolk]
+	[STATE_NAME:LIQUID:gema de ovo]
+	[STATE_ADJ:LIQUID:gema de ovo]
 	[STATE_COLOR:GAS:YELLOW]
-	[STATE_NAME:GAS:boiling egg yolk]
-	[STATE_ADJ:GAS:boiling egg yolk]
+	[STATE_NAME:GAS:vapor de gema de ovo]
+	[STATE_ADJ:GAS:vapor de gema de ovo]
 	[DISPLAY_COLOR:6:0:1]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
@@ -2819,7 +2819,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -2834,24 +2834,24 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 
 [MATERIAL_TEMPLATE:PLANT_OIL_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:YELLOW]
-	[STATE_NAME:ALL_SOLID:frozen vegetable oil]
-	[STATE_ADJ:ALL_SOLID:frozen vegetable oil]
+	[STATE_NAME:ALL_SOLID:¢leo vegetal congelado]
+	[STATE_ADJ:ALL_SOLID:¢leo vegetal congelado]
 	[STATE_COLOR:LIQUID:YELLOW]
-	[STATE_NAME:LIQUID:vegetable oil]
-	[STATE_ADJ:LIQUID:vegetable oil]
+	[STATE_NAME:LIQUID:¢leo vegetal]
+	[STATE_ADJ:LIQUID:¢leo vegetal]
 	[STATE_COLOR:GAS:YELLOW]
-	[STATE_NAME:GAS:boiling vegetable oil]
-	[STATE_ADJ:GAS:boiling vegetable oil]
+	[STATE_NAME:GAS:vapor de ¢leo vegetal]
+	[STATE_ADJ:GAS:vapor de ¢leo vegetal]
 	[DISPLAY_COLOR:6:0:1]
 	[MATERIAL_VALUE:1]
-	[SPEC_HEAT:1820] olive oil 1.97, "vegetable oil" 1.67
+	[SPEC_HEAT:1820] ¢leo de oliva 1.97, "¢leo vegetal" 1.67
 	[IGNITE_POINT:10588]
-	[MELTING_POINT:9978] real world values for different veg oils appear to be all over the map
+	[MELTING_POINT:9978] os valores do mundo real para diferentes ¢leos vegetais parecem estar em todo o mapa
 	[BOILING_POINT:10368]
 	[HEATDAM_POINT:NONE]
 	[COLDDAM_POINT:NONE]
 	[MAT_FIXED_TEMP:NONE]
-	[SOLID_DENSITY:920] used liquid value
+	[SOLID_DENSITY:920] usado valor de l¡quido
 	[LIQUID_DENSITY:920]
 	[MOLAR_MASS:20000]
 	[IMPACT_YIELD:10000]
@@ -2866,7 +2866,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -2879,11 +2879,11 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 
 [MATERIAL_TEMPLATE:PLANT_SOAP_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:CREAM]
-	[STATE_NAME:ALL_SOLID:soap]
-	[STATE_ADJ:ALL_SOLID:soap]
+	[STATE_NAME:ALL_SOLID:sab„o]
+	[STATE_ADJ:ALL_SOLID:sab„o]
 	[STATE_COLOR:LIQUID:CREAM]
-	[STATE_NAME:LIQUID:melted soap]
-	[STATE_ADJ:LIQUID:melted soap]
+	[STATE_NAME:LIQUID:sab„o derretido]
+	[STATE_ADJ:LIQUID:sab„o derretido]
 	[STATE_COLOR:GAS:CREAM]
 	[STATE_NAME:GAS:n/a]
 	[STATE_ADJ:GAS:n/a]
@@ -2911,7 +2911,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:10000] no data
+	[SHEAR_YIELD:10000] sem dados
 	[SHEAR_FRACTURE:10000]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -2924,11 +2924,11 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 
 [MATERIAL_TEMPLATE:WAX_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:YELLOW]
-	[STATE_NAME:ALL_SOLID:wax]
-	[STATE_ADJ:ALL_SOLID:wax]
+	[STATE_NAME:ALL_SOLID:cera]
+	[STATE_ADJ:ALL_SOLID:cera]
 	[STATE_COLOR:LIQUID:YELLOW]
-	[STATE_NAME:LIQUID:melted wax]
-	[STATE_ADJ:LIQUID:melted wax]
+	[STATE_NAME:LIQUID:cera derretida]
+	[STATE_ADJ:LIQUID:cera derretida]
 	[STATE_COLOR:GAS:YELLOW]
 	[STATE_NAME:GAS:n/a]
 	[STATE_ADJ:GAS:n/a]
@@ -2959,7 +2959,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[SHEAR_YIELD:10000]
 	[SHEAR_FRACTURE:10000]
 	[SHEAR_STRAIN_AT_YIELD:100]
-	[BENDING_YIELD:10000] no data
+	[BENDING_YIELD:10000] sem dados
 	[BENDING_FRACTURE:10000]
 	[BENDING_STRAIN_AT_YIELD:100]
 	[MAX_EDGE:0]
@@ -2970,14 +2970,14 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 
 [MATERIAL_TEMPLATE:CREATURE_ALCOHOL_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:BROWN]
-	[STATE_NAME:ALL_SOLID:frozen alcohol]
-	[STATE_ADJ:ALL_SOLID:frozen alcohol]
+	[STATE_NAME:ALL_SOLID: lcool congelado]
+	[STATE_ADJ:ALL_SOLID: lcool congelado]
 	[STATE_COLOR:LIQUID:BROWN]
-	[STATE_NAME:LIQUID:alcohol]
-	[STATE_ADJ:LIQUID:alcohol]
+	[STATE_NAME:LIQUID: lcool]
+	[STATE_ADJ:LIQUID: lcool]
 	[STATE_COLOR:GAS:BROWN]
-	[STATE_NAME:GAS:boiling alcohol]
-	[STATE_ADJ:GAS:boiling alcohol]
+	[STATE_NAME:GAS:vapor de  lcool]
+	[STATE_ADJ:GAS:vapor de  lcool]
 	[DISPLAY_COLOR:6:0:0]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:2440]
@@ -3002,7 +3002,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -3012,7 +3012,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[ABSORPTION:100]
 	[ALCOHOL_CREATURE]
 	[SYNDROME]
-		[SYN_NAME:inebriation]
+		[SYN_NAME:embriaguez]
 		[SYN_IDENTIFIER:INEBRIATION]
 		[SYN_AFFECTED_CLASS:GENERAL_POISON]
 		[SYN_INGESTED]
@@ -3029,10 +3029,10 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 
 [MATERIAL_TEMPLATE:LEATHERY_EGGSHELL_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:WHITE]
-	[STATE_NAME:SOLID:eggshell]
-	[STATE_ADJ:SOLID:eggshell]
-	[STATE_NAME:POWDER:eggshell powder]
-	[STATE_ADJ:POWDER:eggshell powder]
+	[STATE_NAME:SOLID:casca de ovo]
+	[STATE_ADJ:SOLID:casca de ovo]
+	[STATE_NAME:POWDER:p¢ de casca de ovo]
+	[STATE_ADJ:POWDER:p¢ de casca de ovo]
 	[STATE_COLOR:LIQUID:WHITE]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -3051,7 +3051,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[SOLID_DENSITY:500]
 	[LIQUID_DENSITY:NONE]
 	[MOLAR_MASS:NONE]
-	[IMPACT_YIELD:10000] -- copied leather
+	[IMPACT_YIELD:10000] -- copiado do couro
 	[IMPACT_FRACTURE:10000]
 	[IMPACT_STRAIN_AT_YIELD:50000]
 	[COMPRESSIVE_YIELD:10000]
@@ -3072,18 +3072,18 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[MAX_EDGE:1000]
 	[ABSORPTION:100]
 	[IMPLIES_ANIMAL_KILL]
-	ITEMS_LEATHER might lead to strange things with the eggs we have now so leaving it off for now
+	ITEMS_LEATHER pode levar a coisas estranhas com os ovos que temos agora, ent„o deixe isso de lado por enquanto
 
 [MATERIAL_TEMPLATE:INK_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:BLACK]
-	[STATE_NAME:ALL_SOLID:frozen ink]
-	[STATE_ADJ:ALL_SOLID:frozen ink]
+	[STATE_NAME:ALL_SOLID:tinta congelada]
+	[STATE_ADJ:ALL_SOLID:tinta congelada]
 	[STATE_COLOR:LIQUID:BLACK]
-	[STATE_NAME:LIQUID:ink]
-	[STATE_ADJ:LIQUID:ink]
+	[STATE_NAME:LIQUID:tinta]
+	[STATE_ADJ:LIQUID:tinta]
 	[STATE_COLOR:GAS:BLACK]
-	[STATE_NAME:GAS:boiling ink]
-	[STATE_ADJ:GAS:boiling ink]
+	[STATE_NAME:GAS:vapor de tinta]
+	[STATE_ADJ:GAS:vapor de tinta]
 	[DISPLAY_COLOR:0:0:1]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
@@ -3108,7 +3108,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -3120,8 +3120,8 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 
 [MATERIAL_TEMPLATE:SPONGE_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:RED]
-	[STATE_NAME:ALL_SOLID:sponge]
-	[STATE_ADJ:ALL_SOLID:spongy]
+	[STATE_NAME:ALL_SOLID:esponja]
+	[STATE_ADJ:ALL_SOLID:esponjoso]
 	[STATE_COLOR:LIQUID:RED]
 	[STATE_NAME:LIQUID:n/a]
 	[STATE_ADJ:LIQUID:n/a]
@@ -3152,7 +3152,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:50000]
-	[SHEAR_YIELD:10000] no data
+	[SHEAR_YIELD:10000] sem dados
 	[SHEAR_FRACTURE:10000]
 	[SHEAR_STRAIN_AT_YIELD:50000]
 	[BENDING_YIELD:10000]
@@ -3164,14 +3164,14 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 
 [MATERIAL_TEMPLATE:TEARS_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:CLEAR]
-	[STATE_NAME:ALL_SOLID:frozen tears]
-	[STATE_ADJ:ALL_SOLID:frozen tears]
+	[STATE_NAME:ALL_SOLID:l grimas congeladas]
+	[STATE_ADJ:ALL_SOLID:l grimas congeladas]
 	[STATE_COLOR:LIQUID:CLEAR]
-	[STATE_NAME:LIQUID:tears]
-	[STATE_ADJ:LIQUID:tears]
+	[STATE_NAME:LIQUID:l grimas]
+	[STATE_ADJ:LIQUID:l grimas]
 	[STATE_COLOR:GAS:CLEAR]
-	[STATE_NAME:GAS:boiling tears]
-	[STATE_ADJ:GAS:boiling tears]
+	[STATE_NAME:GAS:vapor de l grimas]
+	[STATE_ADJ:GAS:vapor de l grimas]
 	[DISPLAY_COLOR:7:0:0]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
@@ -3196,7 +3196,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -3209,14 +3209,14 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 
 [MATERIAL_TEMPLATE:SPIT_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:CLEAR]
-	[STATE_NAME:ALL_SOLID:frozen spit]
-	[STATE_ADJ:ALL_SOLID:frozen spit]
+	[STATE_NAME:ALL_SOLID:cuspe congelado]
+	[STATE_ADJ:ALL_SOLID:cuspe congelado]
 	[STATE_COLOR:LIQUID:CLEAR]
-	[STATE_NAME:LIQUID:spit]
-	[STATE_ADJ:LIQUID:spit]
+	[STATE_NAME:LIQUID:cuspe]
+	[STATE_ADJ:LIQUID:cuspe]
 	[STATE_COLOR:GAS:CLEAR]
-	[STATE_NAME:GAS:boiling spit]
-	[STATE_ADJ:GAS:boiling spit]
+	[STATE_NAME:GAS:vapor de cuspe]
+	[STATE_ADJ:GAS:vapor de cuspe]
 	[DISPLAY_COLOR:7:0:0]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
@@ -3241,7 +3241,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]
@@ -3254,14 +3254,14 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 
 [MATERIAL_TEMPLATE:SWEAT_TEMPLATE]
 	[STATE_COLOR:ALL_SOLID:CLEAR]
-	[STATE_NAME:ALL_SOLID:frozen sweat]
-	[STATE_ADJ:ALL_SOLID:frozen sweat]
+	[STATE_NAME:ALL_SOLID:suor congelado]
+	[STATE_ADJ:ALL_SOLID:suor congelado]
 	[STATE_COLOR:LIQUID:CLEAR]
-	[STATE_NAME:LIQUID:sweat]
-	[STATE_ADJ:LIQUID:sweat]
+	[STATE_NAME:LIQUID:suor]
+	[STATE_ADJ:LIQUID:suor]
 	[STATE_COLOR:GAS:CLEAR]
-	[STATE_NAME:GAS:boiling sweat]
-	[STATE_ADJ:GAS:boiling sweat]
+	[STATE_NAME:GAS:vapor de suor]
+	[STATE_ADJ:GAS:vapor de suor]
 	[DISPLAY_COLOR:7:0:0]
 	[MATERIAL_VALUE:1]
 	[SPEC_HEAT:4181]
@@ -3286,7 +3286,7 @@ This is for creatures that are "made of fire".  Right now there isn't a good for
 	[TORSION_YIELD:10000]
 	[TORSION_FRACTURE:10000]
 	[TORSION_STRAIN_AT_YIELD:100]
-	[SHEAR_YIELD:6600] used high salinity ice
+	[SHEAR_YIELD:6600] usado gelo de alta salinidade
 	[SHEAR_FRACTURE:6600]
 	[SHEAR_STRAIN_AT_YIELD:100]
 	[BENDING_YIELD:10000]

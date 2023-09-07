@@ -2,13 +2,13 @@ inorganic_stone_mineral
 
 [OBJECT:INORGANIC]
 
-Uristocrat: Density values from the research thread:
+Uristocrat: Valores de densidade da discuss„o de pesquisa:
 http://www.bay12forums.com/smf/index.php?topic=80022.0
 
 
 [INORGANIC:HEMATITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:hematite][DISPLAY_COLOR:4:7:0][TILE:156]
+[STATE_NAME_ADJ:ALL_SOLID:hematita][DISPLAY_COLOR:4:7:0][TILE:156]
 [ENVIRONMENT:SEDIMENTARY:VEIN:100]
 [ENVIRONMENT:IGNEOUS_EXTRUSIVE:VEIN:100]
 [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
@@ -23,7 +23,7 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 
 [INORGANIC:LIMONITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:limonite][DISPLAY_COLOR:6:7:1][TILE:156]
+[STATE_NAME_ADJ:ALL_SOLID:limonita][DISPLAY_COLOR:6:7:1][TILE:156]
 [ENVIRONMENT:SEDIMENTARY:VEIN:100]
 [ITEM_SYMBOL:'*']
 [METAL_ORE:IRON:100]
@@ -34,7 +34,7 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 
 [INORGANIC:GARNIERITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:garnierite][DISPLAY_COLOR:2:7:1][TILE:156]
+[STATE_NAME_ADJ:ALL_SOLID:garnierita][DISPLAY_COLOR:2:7:1][TILE:156]
 [ENVIRONMENT_SPEC:GABBRO:VEIN:100]
 [ITEM_SYMBOL:'*']
 [METAL_ORE:NICKEL:100]
@@ -48,12 +48,12 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
 [ITEM_SYMBOL:'*']
 [METAL_ORE:GOLD:100]
-[STONE_NAME:gold nuggets]
-[STATE_NAME:SOLID:native gold]
-[STATE_NAME:SOLID_POWDER:native gold dust]
-[STATE_ADJ:ALL_SOLID:native gold]
-[STATE_NAME_ADJ:LIQUID:molten native gold]
-[STATE_NAME_ADJ:GAS:boiling native gold]
+[STONE_NAME:pepitas de ouro]
+[STATE_NAME:SOLID:ouro nativo]
+[STATE_NAME:SOLID_POWDER:p¢ de ouro nativo]
+[STATE_ADJ:ALL_SOLID:ouro nativo]
+[STATE_NAME_ADJ:LIQUID:ouro nativo derretido]
+[STATE_NAME_ADJ:GAS:vapor de ouro nativo]
 [DISPLAY_COLOR:6:7:1]
 [TILE:156]
 [MATERIAL_VALUE:30]
@@ -68,20 +68,20 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 [IMPACT_STRAIN_AT_YIELD:97]
 [COMPRESSIVE_YIELD:175000]
 [COMPRESSIVE_FRACTURE:350000]
-[COMPRESSIVE_STRAIN_AT_YIELD:97] bulk modulus 180 GPa
+[COMPRESSIVE_STRAIN_AT_YIELD:97] m¢dulo de massa 180 GPa
 [TENSILE_YIELD:50000]
 [TENSILE_FRACTURE:100000]
-[TENSILE_STRAIN_AT_YIELD:64] young's modulus 78 GPa
+[TENSILE_STRAIN_AT_YIELD:64] m¢dulo de young 78 GPa
 [TORSION_YIELD:50000]
 [TORSION_FRACTURE:100000]
 [TORSION_STRAIN_AT_YIELD:185]
 [SHEAR_YIELD:50000]
 [SHEAR_FRACTURE:100000]
-[SHEAR_STRAIN_AT_YIELD:185] shear modulus 27 GPa
+[SHEAR_STRAIN_AT_YIELD:185] m¢dulo de cisalhamento 27 GPa
 [BENDING_YIELD:50000]
 [BENDING_FRACTURE:100000]
 [BENDING_STRAIN_AT_YIELD:64]
-[MAX_EDGE:1000] no swords until you can pick mats
+[MAX_EDGE:1000] sem espadas at‚ poder pegar os materiais
 [ITEMS_HARD]
 [IS_STONE]
 [STATE_COLOR:ALL_SOLID:GOLD]
@@ -91,10 +91,10 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 [ENVIRONMENT_SPEC:GNEISS:VEIN:100]
 [ITEM_SYMBOL:'*']
 [METAL_ORE:SILVER:100]
-[STONE_NAME:silver nuggets]
-[STATE_NAME_ADJ:ALL_SOLID:native silver]
-[STATE_NAME_ADJ:LIQUID:molten native silver]
-[STATE_NAME_ADJ:GAS:boiling native silver]
+[STONE_NAME:pepitas de prata]
+[STATE_NAME_ADJ:ALL_SOLID:prata nativa]
+[STATE_NAME_ADJ:LIQUID:prata nativa derretida]
+[STATE_NAME_ADJ:GAS:vapor de prata nativa]
 [DISPLAY_COLOR:7:7:1]
 [TILE:156]
 [MATERIAL_VALUE:10]
@@ -122,20 +122,20 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 [BENDING_YIELD:100000]
 [BENDING_FRACTURE:170000]
 [BENDING_STRAIN_AT_YIELD:120]
-[MAX_EDGE:1000] no swords until you can pick mats
+[MAX_EDGE:1000] sem espadas at‚ poder pegar os materiais
 [ITEMS_HARD]
 [IS_STONE]
 [STATE_COLOR:ALL_SOLID:SILVER]
 
 [INORGANIC:NATIVE_COPPER]
-[STONE_NAME:copper nuggets]
+[STONE_NAME:pepitas de cobre]
 [ENVIRONMENT:IGNEOUS_EXTRUSIVE:VEIN:100]
 [ENVIRONMENT_SPEC:SANDSTONE:VEIN:100]
 [ITEM_SYMBOL:'*']
 [METAL_ORE:COPPER:100]
-[STATE_NAME_ADJ:ALL_SOLID:native copper]
-[STATE_NAME_ADJ:LIQUID:molten native copper]
-[STATE_NAME_ADJ:GAS:boiling native copper]
+[STATE_NAME_ADJ:ALL_SOLID:cobre nativo]
+[STATE_NAME_ADJ:LIQUID:cobre nativo derretido]
+[STATE_NAME_ADJ:GAS:vapor de cobre nativo]
 [DISPLAY_COLOR:6:7:0]
 [TILE:156]
 [MATERIAL_VALUE:2]
@@ -163,14 +163,14 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 [BENDING_YIELD:70000]
 [BENDING_FRACTURE:220000]
 [BENDING_STRAIN_AT_YIELD:58]
-[MAX_EDGE:1000] no swords until you can pick mats
+[MAX_EDGE:1000] sem espadas at‚ poder pegar os materiais
 [ITEMS_HARD]
 [IS_STONE]
 [STATE_COLOR:ALL_SOLID:COPPER]
 
 [INORGANIC:MALACHITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:malachite][DISPLAY_COLOR:2:7:0][TILE:156]
+[STATE_NAME_ADJ:ALL_SOLID:malaquita][DISPLAY_COLOR:2:7:0][TILE:156]
 [ENVIRONMENT_SPEC:LIMESTONE:VEIN:100]
 [ENVIRONMENT_SPEC:MARBLE:VEIN:100]
 [ITEM_SYMBOL:'*']
@@ -200,7 +200,7 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 
 [INORGANIC:SPHALERITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:sphalerite][DISPLAY_COLOR:0:7:1][TILE:156]
+[STATE_NAME_ADJ:ALL_SOLID:esfalerita][DISPLAY_COLOR:0:7:1][TILE:156]
 [ENVIRONMENT:METAMORPHIC:VEIN:100]
 [ITEM_SYMBOL:'*']
 [METAL_ORE:ZINC:100]
@@ -213,7 +213,7 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 
 [INORGANIC:CASSITERITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:cassiterite][DISPLAY_COLOR:6:7:0][TILE:156]
+[STATE_NAME_ADJ:ALL_SOLID:cassiterita][DISPLAY_COLOR:6:7:0][TILE:156]
 [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
 [ENVIRONMENT_SPEC:GRANITE:VEIN:100]
 [ITEM_SYMBOL:'*']
@@ -225,9 +225,10 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 [MATERIAL_REACTION_PRODUCT:GLAZE_MAT:INORGANIC:TIN_GLAZE]
 [STATE_COLOR:ALL_SOLID:GRAY]
 
+carv„o betuminoso - hulha
 [INORGANIC:COAL_BITUMINOUS]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:bituminous coal][DISPLAY_COLOR:0:7:1][TILE:15]
+[STATE_NAME_ADJ:ALL_SOLID:hulha][DISPLAY_COLOR:0:7:1][TILE:15]
 [ENVIRONMENT:SEDIMENTARY:VEIN:100]
 [ITEM_SYMBOL:15]
 [SPEC_HEAT:409]
@@ -241,27 +242,27 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 
 [INORGANIC:LIGNITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:lignite][DISPLAY_COLOR:0:7:1][TILE:'*']
+[STATE_NAME_ADJ:ALL_SOLID:lignito][DISPLAY_COLOR:0:7:1][TILE:'*']
 [ENVIRONMENT:SEDIMENTARY:VEIN:100]
 [SPEC_HEAT:409]
 [IGNITE_POINT:11440]
 [MELTING_POINT:NONE]
 [BOILING_POINT:16708]
-[SOLID_DENSITY:1250]  Should be less dense than bituminous coal.
+[SOLID_DENSITY:1250]  Deve ser menos denso do que o hulha (carv„o betuminoso).
 [IS_STONE]
 [STATE_COLOR:ALL_SOLID:SLATE_GRAY]
 
 [INORGANIC:NATIVE_PLATINUM]
-[STONE_NAME:platinum nuggets]
+[STONE_NAME:pepitas de platina]
 [ENVIRONMENT:ALLUVIAL:CLUSTER_SMALL:100]
 [ENVIRONMENT_SPEC:OLIVINE:VEIN:100]
 [ENVIRONMENT_SPEC:MAGNETITE:VEIN:100]
 [ENVIRONMENT_SPEC:CHROMITE:CLUSTER_SMALL:100]
 [ITEM_SYMBOL:'*']
 [METAL_ORE:PLATINUM:100]
-[STATE_NAME_ADJ:ALL_SOLID:native platinum]
-[STATE_NAME_ADJ:LIQUID:molten native platinum]
-[STATE_NAME_ADJ:GAS:boiling native platinum]
+[STATE_NAME_ADJ:ALL_SOLID:platina nativa]
+[STATE_NAME_ADJ:LIQUID:platina nativa derretida]
+[STATE_NAME_ADJ:GAS:vapor de platina nativa]
 [DISPLAY_COLOR:7:7:1]
 [TILE:156]
 [MATERIAL_VALUE:40]
@@ -289,15 +290,15 @@ http://www.bay12forums.com/smf/index.php?topic=80022.0
 [BENDING_YIELD:100000]
 [BENDING_FRACTURE:200000]
 [BENDING_STRAIN_AT_YIELD:60]
-[MAX_EDGE:1000] no swords until you can pick mats
+[MAX_EDGE:1000] sem espadas at‚ poder pegar os materiais
 [ITEMS_HARD]
 [IS_STONE]
 [STATE_COLOR:ALL_SOLID:SILVER]
 
-ore of mercury, powdered gives vermilion dye
+o min‚rio de merc£rio, em p¢, d  corante vermelh„o
 [INORGANIC:CINNABAR]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:cinnabar][DISPLAY_COLOR:4:7:1][TILE:156]
+[STATE_NAME_ADJ:ALL_SOLID:cin brio][DISPLAY_COLOR:4:7:1][TILE:156]
 [ENVIRONMENT:IGNEOUS_EXTRUSIVE:VEIN:100]
 [ENVIRONMENT_SPEC:SHALE:VEIN:100]
 [ENVIRONMENT_SPEC:QUARTZITE:VEIN:100]
@@ -309,7 +310,7 @@ ore of mercury, powdered gives vermilion dye
 
 [INORGANIC:COBALTITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:cobaltite][DISPLAY_COLOR:1:7:1][TILE:156]
+[STATE_NAME_ADJ:ALL_SOLID:cobaltita][DISPLAY_COLOR:1:7:1][TILE:156]
 [ENVIRONMENT:IGNEOUS_ALL:VEIN:100]
 [ENVIRONMENT:METAMORPHIC:VEIN:100]
 [ITEM_SYMBOL:'*']
@@ -319,7 +320,7 @@ ore of mercury, powdered gives vermilion dye
 
 [INORGANIC:TETRAHEDRITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:tetrahedrite][DISPLAY_COLOR:0:7:1][TILE:156]
+[STATE_NAME_ADJ:ALL_SOLID:tetraedrita][DISPLAY_COLOR:0:7:1][TILE:156]
 [ENVIRONMENT:ALL_STONE:VEIN:100]
 [ITEM_SYMBOL:'*']
 [METAL_ORE:COPPER:100]
@@ -332,7 +333,7 @@ ore of mercury, powdered gives vermilion dye
 
 [INORGANIC:HORN_SILVER]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:horn silver][DISPLAY_COLOR:7:7:1][TILE:156]
+[STATE_NAME_ADJ:ALL_SOLID:prata-chifre][DISPLAY_COLOR:7:7:1][TILE:156]
 [ENVIRONMENT_SPEC:NATIVE_SILVER:CLUSTER_SMALL:100]
 [ITEM_SYMBOL:'*']
 [METAL_ORE:SILVER:100]
@@ -342,12 +343,12 @@ ore of mercury, powdered gives vermilion dye
 [MELTING_POINT:10819]
 [STATE_COLOR:ALL_SOLID:BRASS]
 
-this is common gypsum, 3 vars below, any gypsum can be heated to and then mixed with water to make plaster
+este ‚ o gesso comum, 3 variantes abaixo, qualquer gesso pode ser aquecido e depois misturado com  gua para fazer a massa de gesso
 [INORGANIC:GYPSUM]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:gypsum][DISPLAY_COLOR:6:7:1][TILE:'#']
+[STATE_NAME_ADJ:ALL_SOLID:gesso][DISPLAY_COLOR:6:7:1][TILE:'#']
 [ENVIRONMENT:SEDIMENTARY:CLUSTER:100]
-[SOLID_DENSITY:2320]  Gypsum density was rather high.  My sources all give ~2300.
+[SOLID_DENSITY:2320]  A densidade do gesso era bastante elevada.  Todas as minhas fontes indicam ~2300.
 [IS_STONE]
 [REACTION_CLASS:GYPSUM]
 [MELTING_POINT:10261]
@@ -355,7 +356,7 @@ this is common gypsum, 3 vars below, any gypsum can be heated to and then mixed 
 
 [INORGANIC:TALC]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:talc][DISPLAY_COLOR:7:7:1][TILE:'|']
+[STATE_NAME_ADJ:ALL_SOLID:talco][DISPLAY_COLOR:7:7:1][TILE:'|']
 [ENVIRONMENT_SPEC:DOLOMITE:CLUSTER:100]
 [SOLID_DENSITY:2691]
 [IS_STONE]
@@ -364,7 +365,7 @@ this is common gypsum, 3 vars below, any gypsum can be heated to and then mixed 
 
 [INORGANIC:JET]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:jet][DISPLAY_COLOR:0:7:1][TILE:176]
+[STATE_NAME_ADJ:ALL_SOLID:azeviche][DISPLAY_COLOR:0:7:1][TILE:176]
 [ENVIRONMENT:SEDIMENTARY:CLUSTER:100]
 [IS_STONE]
 [SOLID_DENSITY:1320]
@@ -372,15 +373,15 @@ this is common gypsum, 3 vars below, any gypsum can be heated to and then mixed 
 
 [INORGANIC:PUDDINGSTONE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:puddingstone][DISPLAY_COLOR:6:7:0][TILE:233]
+[STATE_NAME_ADJ:ALL_SOLID:pedra-pudim][DISPLAY_COLOR:6:7:0][TILE:233]
 [ENVIRONMENT_SPEC:CONGLOMERATE:CLUSTER:100][AQUIFER]
 [IS_STONE]
-[SOLID_DENSITY:2000] Based on congolomorate
+[SOLID_DENSITY:2000] Baseado no conglomerado
 [STATE_COLOR:ALL_SOLID:SAFFRON]
 
 [INORGANIC:PETRIFIED_WOOD]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:petrified wood][DISPLAY_COLOR:4:7:1][TILE:'%']
+[STATE_NAME_ADJ:ALL_SOLID:madeira-petrificada][DISPLAY_COLOR:4:7:1][TILE:'%']
 [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
 [IS_STONE]
 [MELTING_POINT:12970]
@@ -390,9 +391,9 @@ this is common gypsum, 3 vars below, any gypsum can be heated to and then mixed 
 
 [INORGANIC:GRAPHITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:graphite][DISPLAY_COLOR:0:7:1][TILE:'o']
-comes from metamorphism of sedimentary rocks
-[ENVIRONMENT_SPEC:GNEISS:CLUSTER_SMALL:100]gneiss can come from shale (sed.) or granite (ign.)
+[STATE_NAME_ADJ:ALL_SOLID:grafite][DISPLAY_COLOR:0:7:1][TILE:'o']
+resulta do metamorfismo de rochas sedimentares
+[ENVIRONMENT_SPEC:GNEISS:CLUSTER_SMALL:100] O gnaisse pode derivar do folhelho (sed.) ou do granito (ign.)
 [ENVIRONMENT_SPEC:QUARTZITE:CLUSTER_SMALL:100]
 [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
 [ENVIRONMENT_SPEC:SCHIST:CLUSTER_SMALL:100]
@@ -404,10 +405,10 @@ comes from metamorphism of sedimentary rocks
 [IS_STONE]
 [STATE_COLOR:ALL_SOLID:CHARCOAL]
 
-brimstone is a better name for sulfur than sulfur, but this is just sulfur
+brimstone ‚ um nome melhor para enxofre do que enxofre, mas este ‚ apenas enxofre
 [INORGANIC:BRIMSTONE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:brimstone][DISPLAY_COLOR:6:7:1][TILE:'%']
+[STATE_NAME_ADJ:ALL_SOLID:enxofre][DISPLAY_COLOR:6:7:1][TILE:'%']
 [ENVIRONMENT:IGNEOUS_EXTRUSIVE:CLUSTER_SMALL:100]
 [ENVIRONMENT_SPEC:GYPSUM:CLUSTER_SMALL:100]
 [SOLID_DENSITY:2070]
@@ -416,19 +417,19 @@ brimstone is a better name for sulfur than sulfur, but this is just sulfur
 [BOILING_POINT:10800]
 [STATE_COLOR:ALL_SOLID:YELLOW]
 
-kimberlite can have diamonds
+kimberlito pode ter diamantes
 [INORGANIC:KIMBERLITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:kimberlite][DISPLAY_COLOR:1:7:0][TILE:'%']
+[STATE_NAME_ADJ:ALL_SOLID:kimberlito][DISPLAY_COLOR:1:7:0][TILE:'%']
 [ENVIRONMENT_SPEC:GABBRO:VEIN:100]
 [IS_STONE]
 [SOLID_DENSITY:2540]
 [STATE_COLOR:ALL_SOLID:CERULEAN]
 
-ore of bismuth
+min‚rio de bismuto
 [INORGANIC:BISMUTHINITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:bismuthinite][DISPLAY_COLOR:7:7:1][TILE:'%']
+[STATE_NAME_ADJ:ALL_SOLID:bismutinita][DISPLAY_COLOR:7:7:1][TILE:'%']
 [BASIC_COLOR:7:0]
 [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
 [ITEM_SYMBOL:'*']
@@ -438,7 +439,7 @@ ore of bismuth
 [SOLID_DENSITY:7000]
 [STATE_COLOR:ALL_SOLID:BURNT_UMBER]
 
-arsenic sulfide
+sulfureto de ars‚nio
 [INORGANIC:REALGAR]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [STATE_NAME_ADJ:ALL_SOLID:realgar][DISPLAY_COLOR:4:7:1][TILE:'%']
@@ -449,10 +450,10 @@ arsenic sulfide
 [SOLID_DENSITY:3560]
 [STATE_COLOR:ALL_SOLID:RED]
 
-another arsenic sulfide, comes from realgar
+outro sulfureto de ars‚nio, ‚ obtido a partir do realgar
 [INORGANIC:ORPIMENT]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:orpiment][DISPLAY_COLOR:6:7:1][TILE:'-']
+[STATE_NAME_ADJ:ALL_SOLID:auripigmento][DISPLAY_COLOR:6:7:1][TILE:'-']
 [ENVIRONMENT:IGNEOUS_EXTRUSIVE:CLUSTER_SMALL:100]
 [IS_STONE]
 [MELTING_POINT:10639]
@@ -460,10 +461,10 @@ another arsenic sulfide, comes from realgar
 [SOLID_DENSITY:4250]
 [STATE_COLOR:ALL_SOLID:AMBER]
 
-ore of antimony
+min‚rio de antim¢nio
 [INORGANIC:STIBNITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:stibnite][DISPLAY_COLOR:7:7:1][TILE:'%']
+[STATE_NAME_ADJ:ALL_SOLID:estibina][DISPLAY_COLOR:7:7:1][TILE:'%']
 [BASIC_COLOR:7:0]
 [ENVIRONMENT:IGNEOUS_EXTRUSIVE:CLUSTER_SMALL:100]
 [IS_STONE]
@@ -473,17 +474,17 @@ ore of antimony
 
 [INORGANIC:MARCASITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:marcasite][DISPLAY_COLOR:7:7:1][TILE:'%']
+[STATE_NAME_ADJ:ALL_SOLID:marcassita][DISPLAY_COLOR:7:7:1][TILE:'%']
 [ENVIRONMENT_SPEC:KAOLINITE:CLUSTER_SMALL:100]
 [IS_STONE]
 [MELTING_POINT:10810]
 [SOLID_DENSITY:4890]
 [STATE_COLOR:ALL_SOLID:GREEN-YELLOW]
 
-KCl, can be used/processed to fertilizer, destroyed by water -- should only be in very dry environments
+KCl, pode ser utilizado/transformado em fertilizante, destru¡do pela  gua -- s¢ deve ser utilizado em ambientes muito secos
 [INORGANIC:SYLVITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:sylvite][DISPLAY_COLOR:6:7:1][TILE:'=']
+[STATE_NAME_ADJ:ALL_SOLID:silvina][DISPLAY_COLOR:6:7:1][TILE:'=']
 [ENVIRONMENT_SPEC:ROCK_SALT:CLUSTER:100]
 [IS_STONE]
 [MELTING_POINT:11397]
@@ -493,7 +494,7 @@ KCl, can be used/processed to fertilizer, destroyed by water -- should only be i
 
 [INORGANIC:CRYOLITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:cryolite][DISPLAY_COLOR:7:7:1][TILE:'-']
+[STATE_NAME_ADJ:ALL_SOLID:criolita][DISPLAY_COLOR:7:7:1][TILE:'-']
 [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
 [IS_STONE]
 [MELTING_POINT:11817]
@@ -506,24 +507,24 @@ KCl, can be used/processed to fertilizer, destroyed by water -- should only be i
 [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
 [IS_STONE]
 [MELTING_POINT:15040]
-[BOILING_POINT:16000] *** made up because template is 14000
+[BOILING_POINT:16000] *** inventado porque o modelo ‚ 14000
 [SOLID_DENSITY:3785]
 [STATE_COLOR:ALL_SOLID:CHARTREUSE]
 
-a major titanium ore but can't refine through smelting (see e.g. Kroll process)
+um importante min‚rio de titƒnio, mas n„o pode ser refinado por fundi‡„o (ver, por exemplo, o processo Kroll)
 [INORGANIC:ILMENITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:ilmenite][DISPLAY_COLOR:0:7:1][TILE:'.']
+[STATE_NAME_ADJ:ALL_SOLID:ilmenita][DISPLAY_COLOR:0:7:1][TILE:'.']
 [ENVIRONMENT_SPEC:GABBRO:CLUSTER_SMALL:100]
-[SOLID_DENSITY:4720]  Previous value was much too low.
+[SOLID_DENSITY:4720]  O valor anterior era muito baixo.
 [IS_STONE]
 [MELTING_POINT:12457]
 [STATE_COLOR:ALL_SOLID:DARK_TAN]
 
-another titanium ore, same comment applies
+outro min‚rio de titƒnio, o mesmo coment rio se aplica
 [INORGANIC:RUTILE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:rutile][DISPLAY_COLOR:5:7:0][TILE:'`']
+[STATE_NAME_ADJ:ALL_SOLID:rutilo][DISPLAY_COLOR:5:7:0][TILE:'`']
 [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
 [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
 [IS_STONE]
@@ -533,7 +534,7 @@ another titanium ore, same comment applies
 
 [INORGANIC:MAGNETITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:magnetite][DISPLAY_COLOR:0:7:1][TILE:'~']
+[STATE_NAME_ADJ:ALL_SOLID:magnetita][DISPLAY_COLOR:0:7:1][TILE:'~']
 [ENVIRONMENT:SEDIMENTARY:CLUSTER:100]
 [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
 [ENVIRONMENT:IGNEOUS_INTRUSIVE:CLUSTER_SMALL:100]
@@ -546,44 +547,44 @@ another titanium ore, same comment applies
 [MELTING_POINT:12768]
 [STATE_COLOR:ALL_SOLID:GRAY]
 
-to actually get chromium, have to heat 'in the presence of aluminum or silicon'
-	might use in stainless steel making, but not sure how that should work
+para obter cr¢mio, ‚ necess rio aquecˆ-lo "na presen‡a de alum¡nio ou sil¡cio",
+que pode ser utilizado no processo de produ‡„o de a‡o inoxid vel, mas n„o tenho a certeza de como funciona
 [INORGANIC:CHROMITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:chromite][DISPLAY_COLOR:0:7:1][TILE:'=']
+[STATE_NAME_ADJ:ALL_SOLID:cromita][DISPLAY_COLOR:0:7:1][TILE:'=']
 [ENVIRONMENT_SPEC:OLIVINE:VEIN:100]
-[SOLID_DENSITY:4795]   Former value was far too low.
+[SOLID_DENSITY:4795]   O valor anterior era muito baixo.
 [IS_STONE]
 [MELTING_POINT:13645]
 [STATE_COLOR:ALL_SOLID:DARK_INDIGO]
 
-major source of manganese
-	might use in steel making, but not sure how that should work
+grande fonte de manganˆs
+pode ser utilizado na produ‡„o de a‡o, mas n„o tenho a certeza de como ‚ que isso funciona
 [INORGANIC:PYROLUSITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:pyrolusite][DISPLAY_COLOR:0:7:1][TILE:'%']
+[STATE_NAME_ADJ:ALL_SOLID:pirolusita][DISPLAY_COLOR:0:7:1][TILE:'%']
 [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
 [IS_STONE]
 [MELTING_POINT:10963]
 [SOLID_DENSITY:4730]
 [STATE_COLOR:ALL_SOLID:CHARCOAL]
 
-this is uranium oxide, but was possibly used for glazing ceramics (colored glass most likely came later involving refinement beyond our tech level)
+trata-se de ¢xido de urƒnio, mas foi possivelmente utilizado para vidrar cerƒmica (o vidro colorido surgiu muito provavelmente mais tarde, envolvendo um refinamento para al‚m do nosso n¡vel tecnol¢gico)
 [INORGANIC:PITCHBLENDE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:pitchblende][DISPLAY_COLOR:5:7:0][TILE:'*']
+[STATE_NAME_ADJ:ALL_SOLID:pechblenda][DISPLAY_COLOR:5:7:0][TILE:'*']
 [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
 [IS_STONE]
 [MELTING_POINT:12070]
 [BOILING_POINT:12340]
-[SOLID_DENSITY:7600] Ranges from ~6000-9000+ based on UO2-UO3 ratio.  This might be too low.
+[SOLID_DENSITY:7600] Faixas de ~6000-9000+ baseado em raz„o de UO2-UO3. Este valor pode ser muito baixo.
 [STATE_COLOR:ALL_SOLID:OLIVE]
 
-an ore of aluminum, but through a too-advanced process, in-game as the source of the corundum gemstones (ruby and sapphire)
-bauxite melts around 2000C, so it's not practical to smelt it for aluminum (magma only goes up to 1300-1400)
+um min‚rio de alum¡nio, mas atrav‚s de um processo muito avan‡ado, no jogo como a fonte das pedras preciosas de corindo (rubi e safira)
+a bauxita derrete a cerca de 2000C, pelo que n„o ‚ pr tico fundi-la para obter alum¡nio (o magma s¢ vai at‚ 1300-1400)
 [INORGANIC:BAUXITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:bauxite][DISPLAY_COLOR:4:7:0][TILE:'+']
+[STATE_NAME_ADJ:ALL_SOLID:bauxita][DISPLAY_COLOR:4:7:0][TILE:'+']
 [ENVIRONMENT:SEDIMENTARY:CLUSTER:100]
 [MELTING_POINT:13600]
 [BOILING_POINT:15000]
@@ -591,14 +592,14 @@ bauxite melts around 2000C, so it's not practical to smelt it for aluminum (magm
 [SOLID_DENSITY:3100]
 [STATE_COLOR:ALL_SOLID:VERMILION]
 
-aluminum can occasionally be found in its free form in environments that like oxygen, volcanic muds were mentioned
+o alum¡nio pode ocasionalmente ser encontrado na sua forma livre em ambientes que gostam de oxig‚nio, foram mencionadas as lamas vulcƒnicas
 [INORGANIC:NATIVE_ALUMINUM]
 [ENVIRONMENT:IGNEOUS_EXTRUSIVE:CLUSTER_SMALL:100]
 [ITEM_SYMBOL:'*']
 [METAL_ORE:ALUMINUM:100]
-[STATE_NAME_ADJ:ALL_SOLID:native aluminum]
-[STATE_NAME_ADJ:LIQUID:molten native aluminum]
-[STATE_NAME_ADJ:GAS:boiling native aluminum]
+[STATE_NAME_ADJ:ALL_SOLID:alum¡nio nativo]
+[STATE_NAME_ADJ:LIQUID:alum¡nio nativo derretido]
+[STATE_NAME_ADJ:GAS:vapor de alum¡nio nativo]
 [DISPLAY_COLOR:7:7:1]
 [TILE:'^']
 [MATERIAL_VALUE:40]
@@ -626,14 +627,14 @@ aluminum can occasionally be found in its free form in environments that like ox
 [BENDING_YIELD:20000]
 [BENDING_FRACTURE:50000]
 [BENDING_STRAIN_AT_YIELD:29]
-[MAX_EDGE:1000] no swords until you can pick mats
+[MAX_EDGE:1000] sem espadas at‚ poder pegar os materiais
 [ITEMS_HARD]
 [IS_STONE]
 [STATE_COLOR:ALL_SOLID:IVORY]
 
 [INORGANIC:BORAX]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:borax][DISPLAY_COLOR:7:7:1][TILE:'`']
+[STATE_NAME_ADJ:ALL_SOLID:b¢rax][DISPLAY_COLOR:7:7:1][TILE:'`']
 [ENVIRONMENT_SPEC:GYPSUM:CLUSTER_SMALL:100]
 [ENVIRONMENT_SPEC:ROCK_SALT:CLUSTER:100]
 [IS_STONE]
@@ -644,7 +645,7 @@ aluminum can occasionally be found in its free form in environments that like ox
 
 [INORGANIC:OLIVINE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:olivine][DISPLAY_COLOR:2:7:0][TILE:'%']
+[STATE_NAME_ADJ:ALL_SOLID:olivina][DISPLAY_COLOR:2:7:0][TILE:'%']
 [ENVIRONMENT_SPEC:GABBRO:CLUSTER:100]
 [IS_STONE]
 [MELTING_POINT:13168]
@@ -653,7 +654,7 @@ aluminum can occasionally be found in its free form in environments that like ox
 
 [INORGANIC:HORNBLENDE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:hornblende][DISPLAY_COLOR:0:7:1][TILE:'"']
+[STATE_NAME_ADJ:ALL_SOLID:horneblenda][DISPLAY_COLOR:0:7:1][TILE:'"']
 [ENVIRONMENT:IGNEOUS_ALL:CLUSTER_SMALL:100]
 [ENVIRONMENT:METAMORPHIC:CLUSTER_SMALL:100]
 [IS_STONE]
@@ -663,7 +664,7 @@ aluminum can occasionally be found in its free form in environments that like ox
 
 [INORGANIC:KAOLINITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:kaolinite][DISPLAY_COLOR:4:7:0][TILE:'=']
+[STATE_NAME_ADJ:ALL_SOLID:caulinita][DISPLAY_COLOR:4:7:0][TILE:'=']
 [ENVIRONMENT:SEDIMENTARY:CLUSTER:100]
 [IS_STONE]
 [MELTING_POINT:13150]
@@ -673,17 +674,17 @@ aluminum can occasionally be found in its free form in environments that like ox
 
 [INORGANIC:SERPENTINE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:serpentine][DISPLAY_COLOR:2:7:0][TILE:247]
+[STATE_NAME_ADJ:ALL_SOLID:serpentina][DISPLAY_COLOR:2:7:0][TILE:247]
 [ENVIRONMENT_SPEC:OLIVINE:CLUSTER_SMALL:100]
 [IS_STONE]
 [MELTING_POINT:10281]
 [SOLID_DENSITY:2450]
 [STATE_COLOR:ALL_SOLID:CHARTREUSE]
 
-used with kaolinite sometimes for ceramics
+utilizado por vezes com caulinita para cerƒmica
 [INORGANIC:ORTHOCLASE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:orthoclase][DISPLAY_COLOR:6:7:1][TILE:'%']
+[STATE_NAME_ADJ:ALL_SOLID:ortoclase][DISPLAY_COLOR:6:7:1][TILE:'%']
 [ENVIRONMENT:IGNEOUS_INTRUSIVE:CLUSTER:100]
 [ENVIRONMENT:METAMORPHIC:CLUSTER:100]
 [IS_STONE]
@@ -691,16 +692,16 @@ used with kaolinite sometimes for ceramics
 [SOLID_DENSITY:2560]
 [STATE_COLOR:ALL_SOLID:CHESTNUT]
 
-used with kaolinite sometimes for ceramics
+utilizado por vezes com caulinita para cerƒmica
 [INORGANIC:MICROCLINE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:microcline][DISPLAY_COLOR:3:7:1][TILE:'%']
+[STATE_NAME_ADJ:ALL_SOLID:microclina][DISPLAY_COLOR:3:7:1][TILE:'%']
 [ENVIRONMENT:ALL_STONE:CLUSTER:100]
 [IS_STONE]
 [SOLID_DENSITY:2560]
 [STATE_COLOR:ALL_SOLID:AQUA]
 
-mica group contains various minerals, this is based on muscovite
+o grupo das micas cont‚m v rios minerais, este ‚ baseado na moscovite
 [INORGANIC:MICA]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
 [STATE_NAME_ADJ:ALL_SOLID:mica][DISPLAY_COLOR:0:7:1][TILE:'v']
@@ -711,10 +712,10 @@ mica group contains various minerals, this is based on muscovite
 [MELTING_POINT:12295]
 [STATE_COLOR:ALL_SOLID:SAFFRON]
 
-main constituent of limestone, but can be found as crystal
+principal constituinte do calc rio, mas pode ser encontrado como cristal
 [INORGANIC:CALCITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:calcite][DISPLAY_COLOR:7:7:1][TILE:'"']
+[STATE_NAME_ADJ:ALL_SOLID:calcita][DISPLAY_COLOR:7:7:1][TILE:'"']
 [REACTION_CLASS:FLUX]
 [REACTION_CLASS:CALCIUM_CARBONATE]
 [ENVIRONMENT_SPEC:LIMESTONE:CLUSTER_SMALL:100]
@@ -725,10 +726,10 @@ main constituent of limestone, but can be found as crystal
 [SOLID_DENSITY:2930]
 [STATE_COLOR:ALL_SOLID:FLAX]
 
-potassium nitrate, good for fertilizer and blowing things up with carbon and sulfur
+nitrato de pot ssio, bom para fertilizantes e para fazer explodir coisas com carbono e enxofre
 [INORGANIC:SALTPETER]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:saltpeter][DISPLAY_COLOR:6:7:1][TILE:'x']
+[STATE_NAME_ADJ:ALL_SOLID:salitre][DISPLAY_COLOR:6:7:1][TILE:'x']
 [ENVIRONMENT:SEDIMENTARY:CLUSTER_SMALL:100]
 [SOLID_DENSITY:2105]  Previous value was much too low
 [IS_STONE]
@@ -738,7 +739,7 @@ potassium nitrate, good for fertilizer and blowing things up with carbon and sul
 
 [INORGANIC:ALABASTER]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:alabaster][DISPLAY_COLOR:7:7:1][TILE:'^']
+[STATE_NAME_ADJ:ALL_SOLID:alabastro][DISPLAY_COLOR:7:7:1][TILE:'^']
 [ENVIRONMENT_SPEC:GYPSUM:CLUSTER_SMALL:100]
 [SOLID_DENSITY:2300]
 [IS_STONE]
@@ -748,7 +749,7 @@ potassium nitrate, good for fertilizer and blowing things up with carbon and sul
 
 [INORGANIC:SELENITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:selenite][DISPLAY_COLOR:7:7:1][TILE:';']
+[STATE_NAME_ADJ:ALL_SOLID:selenita][DISPLAY_COLOR:7:7:1][TILE:';']
 [ENVIRONMENT_SPEC:GYPSUM:CLUSTER_SMALL:100]
 [SOLID_DENSITY:2300]
 [IS_STONE]
@@ -758,7 +759,7 @@ potassium nitrate, good for fertilizer and blowing things up with carbon and sul
 
 [INORGANIC:SATINSPAR]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:satinspar][DISPLAY_COLOR:7:7:1][TILE:'-']
+[STATE_NAME_ADJ:ALL_SOLID:gipsita][DISPLAY_COLOR:7:7:1][TILE:'-']
 [ENVIRONMENT_SPEC:GYPSUM:CLUSTER_SMALL:100]
 [SOLID_DENSITY:2300]
 [IS_STONE]
@@ -766,25 +767,25 @@ potassium nitrate, good for fertilizer and blowing things up with carbon and sul
 [MELTING_POINT:10261]
 [STATE_COLOR:ALL_SOLID:IVORY]
 
-gypsum without any water (plaster still has some)
+gesso sem  gua (a pasta de gesso ainda tem um pouco)
 [INORGANIC:ANHYDRITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:anhydrite][DISPLAY_COLOR:7:7:1][TILE:'v']
+[STATE_NAME_ADJ:ALL_SOLID:anidrita][DISPLAY_COLOR:7:7:1][TILE:'v']
 [BASIC_COLOR:7:0]
 [ENVIRONMENT_SPEC:GYPSUM:CLUSTER_SMALL:100]
 [ENVIRONMENT_SPEC:SATINSPAR:CLUSTER_ONE:100]
 [ENVIRONMENT_SPEC:ALABASTER:CLUSTER_ONE:100]
 [ENVIRONMENT_SPEC:SELENITE:CLUSTER_ONE:100]
-[SOLID_DENSITY:2960]  Significantly denser than the other gypsum-related minerals.
+[SOLID_DENSITY:2960]  Significativamente mais denso do que os outros minerais relacionados com o gesso.
 [IS_STONE]
 [MELTING_POINT:12610]
 [STATE_COLOR:ALL_SOLID:PERIWINKLE]
 
-used to make alum, a mordant/deoderant/used in tanning/fire retardent/astringent/preservative,
-although alunite makes potassium alum and ammonium alum might be the one for tanning
+utilizado para fabricar al£men, um mordente/desodorizante/utilizado em curtumes/retardador de fogo/astringente/conservante,
+embora a alunite produza al£men de pot ssio e o al£men de am¢nio possa ser o utilizado para curtumes
 [INORGANIC:ALUNITE]
 [USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-[STATE_NAME_ADJ:ALL_SOLID:alunite][DISPLAY_COLOR:7:7:1][TILE:'`']
+[STATE_NAME_ADJ:ALL_SOLID:alunita][DISPLAY_COLOR:7:7:1][TILE:'`']
 [ENVIRONMENT:IGNEOUS_EXTRUSIVE:CLUSTER:100]
 [ENVIRONMENT_SPEC:KAOLINITE:CLUSTER:100]
 [IS_STONE]
@@ -796,9 +797,9 @@ although alunite makes potassium alum and ammonium alum might be the one for tan
 [INORGANIC:RAW_ADAMANTINE]
 [ITEM_SYMBOL:'*']
 [THREAD_METAL:ADAMANTINE:100]
-[STATE_NAME_ADJ:ALL_SOLID:raw adamantine]
-[STATE_NAME_ADJ:LIQUID:molten raw adamantine]
-[STATE_NAME_ADJ:GAS:boiling raw adamantine]
+[STATE_NAME_ADJ:ALL_SOLID:adamantina pura]
+[STATE_NAME_ADJ:LIQUID:adamantina pura derretida]
+[STATE_NAME_ADJ:GAS:vapor de adamantina pura]
 [DISPLAY_COLOR:3:7:1]
 [TILE:156]
 [MATERIAL_VALUE:250]
@@ -827,13 +828,15 @@ although alunite makes potassium alum and ammonium alum might be the one for tan
 [BENDING_FRACTURE:3000000]
 [BENDING_STRAIN_AT_YIELD:0]
 [DEEP_SPECIAL]
-[MAX_EDGE:1000] no swords until you can pick mats
+[MAX_EDGE:1000] sem espadas at‚ poder pegar os materiais
 [ITEMS_HARD]
 [IS_STONE]
 [STATE_COLOR:ALL_SOLID:AQUA]
 
+criei uma palavra para o portugues, seguindo o exemplo de layout e leiaute
+mas a principio tem um pouco de origem no D&D
 [INORGANIC:SLADE]
-[STATE_NAME_ADJ:ALL_SOLID:slade][DISPLAY_COLOR:0:0:1][TILE:176]
+[STATE_NAME_ADJ:ALL_SOLID:isleide][DISPLAY_COLOR:0:0:1][TILE:176]
 [ITEM_SYMBOL:'*']
 [DEEP_SURFACE]
 [DISPLAY_COLOR:0:0:1]
@@ -856,7 +859,7 @@ although alunite makes potassium alum and ammonium alum might be the one for tan
 [BENDING_YIELD:4000000]
 [BENDING_FRACTURE:5000000]
 [BENDING_STRAIN_AT_YIELD:100]
-[MAX_EDGE:1000] no swords until you can pick mats
+[MAX_EDGE:1000] sem espadas at‚ poder pegar os materiais
 [ITEMS_HARD]
 [IS_STONE]
 [UNDIGGABLE]
