@@ -4,4 +4,4 @@ text_current_profession_year
 
 [TEXT_SET:CURRENT_PROFESSION_YEAR]
 
-This is my [CONTEXT:ORDINAL] year as a [CONTEXT:UNIT_NAME].
+Este ‚ meu [CONTEXT:ORDINAL] ano como um [CONTEXT:UNIT_NAME].

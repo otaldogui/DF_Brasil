@@ -4,4 +4,4 @@ text_mercenary_profession_year
 
 [TEXT_SET:MERCENARY_PROFESSION_YEAR]
 
-I have sought fortune and glory by offering my skill at arms in [CONTEXT:PLACE:TRANS_NAME] for [CONTEXT:NUMBER] of my years.
+Eu procurei por fortuna e gl¢ria, oferecendo minhas habilidades com armas em [CONTEXT:PLACE:TRANS_NAME] durante [CONTEXT:NUMBER] anos.

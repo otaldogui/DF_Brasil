@@ -4,4 +4,4 @@ text_thief_profession
 
 [TEXT_SET:THIEF_PROFESSION]
 
-I seek treasures and bring them back to [CONTEXT:PLACE:TRANS_NAME].
+Eu procuro por tesouros e os trago de volta para [CONTEXT:PLACE:TRANS_NAME].

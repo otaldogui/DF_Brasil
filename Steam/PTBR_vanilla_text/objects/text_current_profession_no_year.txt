@@ -4,4 +4,4 @@ text_current_profession_no_year
 
 [TEXT_SET:CURRENT_PROFESSION_NO_YEAR]
 
-I am a [CONTEXT:UNIT_NAME].
+Eu sou um [CONTEXT:UNIT_NAME].

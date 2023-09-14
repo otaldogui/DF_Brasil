@@ -4,4 +4,4 @@ text_curse
 
 [TEXT_SET:CURSE]
 
-Who dares to enter my house?  I curse you!
+Quem ousa adentrar minha casa? Eu o amaldi‡oo!

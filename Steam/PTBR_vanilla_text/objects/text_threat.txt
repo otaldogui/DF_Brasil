@@ -4,4 +4,4 @@ text_threat
 
 [TEXT_SET:THREAT]
 
-Prepare to die!
+Prepare-se para morrer!

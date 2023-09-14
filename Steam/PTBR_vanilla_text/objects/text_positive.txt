@@ -4,13 +4,13 @@ text_positive
 
 [TEXT_SET:POSITIVE]
 
-fantastic!
-wonderful!
-I'm thrilled to hear that.
-I'm pleased to hear that.
-that is good news.
-that is wonderful news.
-this is encouraging.
-very good.
-I'm proud of you.
-that is a good turn of affairs.
+fant stico!
+maravilhoso!
+estou emocionado em ouvir isso.
+estou contente em ouvir isso.
+essas s„o boas not¡cias.
+essas s„o excelentes not¡cias.
+isso ‚ encorajador.
+muito bem.
+estou orgulhoso de vocˆ.
+isto ‚ uma boa mudan‡a de situa‡„o.

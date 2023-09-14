@@ -4,4 +4,4 @@ text_greet_reply_diff_language
 
 [TEXT_SET:GREET_REPLY_DIFF_LANGUAGE]
 
-Hello, [AUDIENCE:RACE].  I am [SPEAKER:TRANS_NAME].
+Ol , [AUDIENCE:RACE].  Eu sou [SPEAKER:TRANS_NAME].

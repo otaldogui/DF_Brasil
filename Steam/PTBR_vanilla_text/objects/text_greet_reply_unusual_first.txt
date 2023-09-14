@@ -4,8 +4,8 @@ text_greet_reply_unusual_first
 
 [TEXT_SET:GREET_REPLY_UNUSUAL_FIRST]
 
-[AUDIENCE:FIRST_NAME]...  your parents must have been interesting!
-You know, you don't meet many people with the name [AUDIENCE:FIRST_NAME].
-So, [AUDIENCE:FIRST_NAME]...   [AUDIENCE:FIRST_NAME], was it?
-[AUDIENCE:FIRST_NAME].  Does that mean something?
-[AUDIENCE:FIRST_NAME].  I can't say I've heard that before.
+[AUDIENCE:FIRST_NAME]...  seus pais devem ter sido interessantes!
+Vocˆ sabe, n„o se encontra muitas pessoas com o nome de [AUDIENCE:FIRST_NAME].
+Ent„o, [AUDIENCE:FIRST_NAME]...   [AUDIENCE:FIRST_NAME], ‚ isso?
+[AUDIENCE:FIRST_NAME].  Isso significa algo?
+[AUDIENCE:FIRST_NAME].  N„o posso dizer que j  ouvi isso antes.

@@ -4,8 +4,8 @@ text_temple_already_member
 
 [TEXT_SET:TEMPLE_ALREADY_MEMBER]
 
-simply
-it is enough to
-your task is simple;
-just
-all you need is to
+simplesmente
+‚ o suficiente para
+sua tarefa ‚ simples;
+apenas
+tudo que vocˆ precisa ‚

@@ -4,4 +4,4 @@ text_soldier_profession
 
 [TEXT_SET:SOLDIER_PROFESSION]
 
-I am a soldier.
+Eu sou um soldado.

@@ -4,6 +4,6 @@ text_greet_baby
 
 [TEXT_SET:GREET_BABY]
 
-Hellooo!
-Look at you!
-A baby!  How adorable!
+Oiii!
+Olhe pra vocˆ!
+Um bebˆ!  Que ador vel!

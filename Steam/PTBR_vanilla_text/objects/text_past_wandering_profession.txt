@@ -4,5 +4,5 @@ text_past_wandering_profession
 
 [TEXT_SET:PAST_WANDERING_PROFESSION]
 
-I once wandered the wilds.
-For [CONTEXT:NUMBER] of my years, I wandered the wilds.
+Eu j  vaguei por lugares selvagens.
+Por [CONTEXT:NUMBER] anos da minha vida, eu desbravei o desconhecido.

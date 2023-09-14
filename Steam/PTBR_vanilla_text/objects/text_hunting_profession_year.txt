@@ -4,4 +4,4 @@ text_hunting_profession_year
 
 [TEXT_SET:HUNTING_PROFESSION_YEAR]
 
-I have hunted great beasts in [CONTEXT:PLACE:TRANS_NAME] for [CONTEXT:NUMBER] of my years.
+Eu tenho ca‡ado grandes bestas em [CONTEXT:PLACE:TRANS_NAME] durante [CONTEXT:NUMBER] anos.

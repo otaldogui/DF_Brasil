@@ -4,4 +4,4 @@ text_child_age_proclamation
 
 [TEXT_SET:CHILD_AGE_PROCLAMATION]
 
-I'm [CONTEXT:NUMBER]!
+Eu tenho [CONTEXT:NUMBER]!

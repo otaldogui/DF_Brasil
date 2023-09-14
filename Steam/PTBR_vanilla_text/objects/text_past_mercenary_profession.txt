@@ -4,5 +4,5 @@ text_past_mercenary_profession
 
 [TEXT_SET:PAST_MERCENARY_PROFESSION]
 
-In the past, I sought fortune and glory by offering my skill at arms.
-I sought fortune and glory by offering my skill at arms for [CONTEXT:NUMBER] of my years.
+No passado, eu procurei fortuna e gl¢ria oferecendo minhas habilidades com armas.
+Eu procurei por fortuna e gl¢ria oferecendo minhas habilidades com armas durante [CONTEXT:NUMBER] anos da minha vida.

@@ -4,5 +4,5 @@ text_past_hunting_profession
 
 [TEXT_SET:PAST_HUNTING_PROFESSION]
 
-In the past, I hunted great beasts.
-I was a hunter of mighty beasts for [CONTEXT:NUMBER] of my years.
+No passado, eu cacei grandes bestas.
+Eu era um ca‡ador de bestas poderosas durante [CONTEXT:NUMBER] anos da minha vida.

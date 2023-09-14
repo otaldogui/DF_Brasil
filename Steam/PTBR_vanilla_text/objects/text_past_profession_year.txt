@@ -4,4 +4,4 @@ text_past_profession_year
 
 [TEXT_SET:PAST_PROFESSION_YEAR]
 
-I was a [CONTEXT:UNIT_NAME] for [CONTEXT:NUMBER] of the years of my life.
+Eu fui um [CONTEXT:UNIT_NAME] durante [CONTEXT:NUMBER] anos da minha vida.

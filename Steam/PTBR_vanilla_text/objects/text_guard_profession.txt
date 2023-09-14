@@ -4,4 +4,4 @@ text_guard_profession
 
 [TEXT_SET:GUARD_PROFESSION]
 
-I am a guard.
+Eu sou um guarda.

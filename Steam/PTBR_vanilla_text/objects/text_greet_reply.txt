@@ -4,4 +4,4 @@ text_greet_reply
 
 [TEXT_SET:GREET_REPLY]
 
-Ah, hello.  I'm [SPEAKER:TRANS_NAME].
+Ah, ol .  Eu sou [SPEAKER:TRANS_NAME].

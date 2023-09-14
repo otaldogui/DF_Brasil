@@ -4,4 +4,4 @@ text_mercenary_profession
 
 [TEXT_SET:MERCENARY_PROFESSION]
 
-I seek fortune and glory by offering my skill at arms in [CONTEXT:PLACE:TRANS_NAME].
+Eu procuro fortuna e gl¢ria, oferecendo minhas habilidades com armas em [CONTEXT:PLACE:TRANS_NAME].

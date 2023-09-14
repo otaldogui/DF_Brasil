@@ -5,157 +5,157 @@ text_book_instruction
 [TEXT_SET:BOOK_INSTRUCTION]
 
 [NAME]
-A Course on [NAME]
-A Humble Offering to [NAME]
-A Meditation on [NAME]
-A Record of [NAME]
-A Treatise on [NAME]
-A World of [NAME]
-About [NAME]
-After [NAME]
-Against [NAME]
-An Exploration of [NAME]
-An Introduction to [NAME]
-An Offering to [NAME]
-At One With [NAME]
-Before [NAME]
-Better [NO_ART_NAME]
-Beyond [NAME]
-Book of [NAME]
-Captivated by [NAME]
-Choose [NAME]
-Classic [NO_ART_NAME]
-Commentary on [NAME]
-Common Sense [NO_ART_NAME]
-Concerning [NAME]
-Discourse on [NAME]
-Discovering [NAME]
-Doubts About [NAME]
-Dreams of [NAME]
-Elements of [NAME]
-Errors In [NAME]
-Exploring [NAME]
-Explorations of [NAME]
-Factual [NO_ART_NAME]
-For the Love of [NAME]
-Foundations of [NAME]
-Give Me [NAME]
-Great [NO_ART_NAME]
-In Pursuit of [NAME]
-Inquiries on [NAME]
-Interpretations of [NAME]
-Introduction to [NAME]
-It All Begins With [NAME]
-It Is [NAME]
-Journey to [NAME]
-Life With [NAME]
-Master of [NAME]
-Mastering [NAME]
-Meditations on [NAME]
-Misconceptions About [NAME]
-More [NO_ART_NAME]
-Musings on [NAME]
-My Thoughts on [NAME]
-Mysteries of [NAME]
-Never Underestimate [NAME]
-New [NO_ART_NAME]
-Of [NAME]
-On [NAME]
-Pathways to [NAME]
-Principles of [NAME]
-Question [NAME]
-Questions About [NAME]
-Records of [NAME]
-Reflections on [NAME]
-Secret [NO_ART_NAME]
-Start Your Day With [NAME]
-Strange [NO_ART_NAME]
-The Art of [NAME]
-The Book of [NAME]
-The Future of [NAME]
-The Great [NO_ART_NAME]
-The Hidden Meaning of [NAME]
-The History of [NAME]
-The Interpretation of [NAME]
-The Journey into [NAME]
-The Knowledge of [NAME]
-The Meaning of [NAME]
-The Mysteries of [NAME]
-The Mystery of [NAME]
-The Nuanced [NO_ART_NAME]
-The Possibilities of [NAME]
-The Pursuit of [NAME]
-The Secret of [NAME]
-The Student's [NO_ART_NAME]
-The Study of [NAME]
-The True [NO_ART_NAME]
-The Truth About [NAME]
-The Unabridged [NO_ART_NAME]
-The Way With [NAME]
-The Wizard's Guide to [NAME]
-The World of [NAME]
-The World Without [NAME]
-Thoughts on [NAME]
-Time Spent With [NAME]
-Traditional [NO_ART_NAME]
-Treatise on [NAME]
-True [NO_ART_NAME]
-Uncanny [NO_ART_NAME]
-Uncovering [NAME]
-Understanding [NAME]
-Unknown [NO_ART_NAME]
-Unusual [NO_ART_NAME]
-Useful [NO_ART_NAME]
-Victory By [NAME]
-[NAME] After The End
-[NAME] and Beyond
-[NAME] and More
-[NAME] and Other Topics
-[NAME] and Other Travesties
-[NAME] and The Coming Troubles
-[NAME] and The Universe
-[NAME] Came Full Circle
-[NAME] Explained
-[NAME] Exposed
-[NAME] For Everyone
-[NAME] For Students
-[NAME] For The Beginning Practitioner
-[NAME] In Practice
-[NAME] In The Modern Era
-[NAME] In The Time of My Ancestors
-[NAME] In Theory
-[NAME] In [ANY_AGE]
-[NAME] Interpreted
-[NAME] Might Help
-[NAME] Questioned
-[NAME] The Easy Way
-[NAME] Uncovered
-[NAME] Understood
-[NAME] When It Counts
-[NAME] Within Reason
-[NAME] Without Limits
-[NAME], Abridged
-[NAME], My Life
-[NAME], My Love
-[NAME]: A Brief History
-[NAME]: A Brief Introduction
-[NAME]: A New Approach
-[NAME]: A Quandary
-[NAME]: Before and After
-[NAME]: Common Practice
-[NAME]: Fact or Fiction?
-[NAME]: Further Musings
-[NAME]: My Only Mistake
-[NAME]: Natural or Supernatural?
-[NAME]: Principles and Practice
-[NAME]: Problems And Solutions
-[NAME]: The Definitive Guide
-[NAME]: The Truth
-Can [NAME] Save The World?
-Could It Be [NAME]?
-Did [NAME] Falter?
-Do We Understand [NAME]?
-Do You Know [NAME]?
-First [NAME], Then The World!
-The [NO_ART_NAME] Book
-To [NAME] and Glory!
+Um Curso sobre [NAME]
+Uma Humilde Oferta para [NAME]
+Uma MeditaáÑo sobre [NAME]
+Um Registro de [NAME]
+Uma DissertaáÑo sobre [NAME]
+Um Mundo de [NAME]
+Sobre [NAME]
+Ap¢s [NAME]
+Contra [NAME]
+Uma ExploraáÑo de [NAME]
+Uma IntroduáÑo a [NAME]
+Uma Oferta para [NAME]
+Juntos com [NAME]
+Antes de [NAME]
+Melhor [NO_ART_NAME]
+AlÇm [NAME]
+Livro de [NAME]
+Cativado por [NAME]
+Escolha [NAME]
+Cl†ssico [NO_ART_NAME]
+Coment†rio sobre [NAME]
+Bom Senso [NO_ART_NAME]
+A Respeito de [NAME]
+Discurso sobre [NAME]
+Descobrindo [NAME]
+D£vidas sobre [NAME]
+Sonhos de [NAME]
+Elementos de [NAME]
+Erros em [NAME]
+Explorando [NAME]
+Exploraáîes de [NAME]
+Fatos [NO_ART_NAME]
+Pelo Amor de [NAME]
+Fundamentos de [NAME]
+Dà-me [NAME]
+Grande [NO_ART_NAME]
+Em Busca de [NAME]
+Perguntas sobre [NAME]
+Interpretaáîes de [NAME]
+IntroduáÑo a [NAME]
+Tudo Comeáa com [NAME]
+Isto ê [NAME]
+Jornada para [NAME]
+Vida com [NAME]
+Mestre de [NAME]
+Dominando [NAME]
+Meditaáîes sobre [NAME]
+Equ°vocos sobre [NAME]
+Mais [NO_ART_NAME]
+Consideraáîes sobre [NAME]
+Meus Pensamentos sobre [NAME]
+MistÇrios de [NAME]
+Nunca Subestime [NAME]
+Novo [NO_ART_NAME]
+De [NAME]
+Em [NAME]
+Caminhos para [NAME]
+Princ°pios de [NAME]
+Pergunte [NAME]
+Perguntas sobre [NAME]
+Registros de [NAME]
+Reflexîes sobre [NAME]
+Segredo [NO_ART_NAME]
+Comece Seu Dia Com [NAME]
+Estranho [NO_ART_NAME]
+A Arte de [NAME]
+O Livro de [NAME]
+O Futuro de [NAME]
+O Grande [NO_ART_NAME]
+O Significado Oculto de [NAME]
+A Hist¢ria de [NAME]
+A InterpretaáÑo de [NAME]
+A Jornada atÇ [NAME]
+O Conhecimento de [NAME]
+O Significado de [NAME]
+Os MistÇrios de [NAME]
+O MistÇrio de [NAME]
+A Sutileza de [NO_ART_NAME]
+As Possibilidades de [NAME]
+A Busca de [NAME]
+O Segredo de [NAME]
+O Aluno de [NO_ART_NAME]
+O Estudo de [NAME]
+O Verdadeiro [NO_ART_NAME]
+A Verdade sobre [NAME]
+O Completo [NO_ART_NAME]
+O Caminho com [NAME]
+O Guia do Assistente para [NAME]
+O Mundo de [NAME]
+O Mundo Sem [NAME]
+Pensamentos sobre [NAME]
+Tempo Gasto com [NAME]
+Tradicional [NO_ART_NAME]
+DissertaáÑo sobre [NAME]
+Verdadeiro [NO_ART_NAME]
+Extraordin†rio [NO_ART_NAME]
+Descobrindo [NAME]
+Compreendendo [NAME]
+Desconhecido [NO_ART_NAME]
+Incomum [NO_ART_NAME]
+ñtil [NO_ART_NAME]
+Vit¢ria de [NAME]
+[NAME] Depois do Fim
+[NAME] e AlÇm
+[NAME] e Mais
+[NAME] e Outros T¢picos
+[NAME] e Outras Farsas
+[NAME] e Os Problemas Vindouros
+[NAME] e O Universo
+[NAME] Deu a Volta por Cima
+[NAME] Explicado
+[NAME] Exposto
+[NAME] Para Todos
+[NAME] Para Estudantes
+[NAME] Para O Praticante Iniciante
+[NAME] Na Pr†tica
+[NAME] Na Era Moderna
+[NAME] No Tempo dos Meus Ancestrais
+[NAME] Em Teoria
+[NAME] Em [ANY_AGE]
+[NAME] Interpretado
+[NAME] Pode Ajudar
+[NAME] Questionado
+[NAME] O Jeito F†cil
+[NAME] Descoberto
+[NAME] Entendido
+[NAME] Quando ê Preciso
+[NAME] Com RazÑo
+[NAME] Sem Limites
+[NAME], Resumido
+[NAME], Minha Vida
+[NAME], Meu Amor
+[NAME]: Uma Breve Hist¢ria
+[NAME]: Uma Breve IntroduáÑo
+[NAME]: Uma Nova Abordagem
+[NAME]: Um Dilema
+[NAME]: Antes e Depois
+[NAME]: Pr†tica Comum
+[NAME]: Fato ou FicáÑo?
+[NAME]: Outras Consideraáîes
+[NAME]: Meu ñnico Erro
+[NAME]: Natural ou Supernatural?
+[NAME]: Princ°pios e Pr†ticas
+[NAME]: Problemas e Soluáîes
+[NAME]: O Guia Definitivo
+[NAME]: A Verdade
+[NAME] Pode Salvar O Mundo?
+Poderia ser [NAME]?
+[NAME] Fraquejou?
+N¢s Compreendemos [NAME]?
+Vocà Conhece [NAME]?
+Primeiro [NAME], EntÑo O Mundo!
+O Livro [NO_ART_NAME]
+Para [NAME] e Gl¢ria!

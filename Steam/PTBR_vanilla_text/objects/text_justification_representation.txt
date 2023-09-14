@@ -4,4 +4,4 @@ text_justificatoin_representation
 
 [TEXT_SET:JUSTIFICATION_REPRESENTATION]
 
-can be thought of as a representation of
+pode ser visto como a representa‡„o de

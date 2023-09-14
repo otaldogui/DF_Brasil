@@ -4,4 +4,4 @@ text_justification_proximity
 
 [TEXT_SET:JUSTIFICATION_PROXIMITY]
 
-can bring one near to
+pode trazer algu‚m pra perto de

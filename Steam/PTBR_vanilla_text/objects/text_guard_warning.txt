@@ -4,4 +4,4 @@ text_guard_warning
 
 [TEXT_SET:GUARD_WARNING]
 
-Don't start any trouble.
+N„o crie problemas.

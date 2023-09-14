@@ -4,4 +4,4 @@ text_wandering_profession
 
 [TEXT_SET:WANDERING_PROFESSION]
 
-I wander [CONTEXT:PLACE:TRANS_NAME].
+Eu vago por [CONTEXT:PLACE:TRANS_NAME].

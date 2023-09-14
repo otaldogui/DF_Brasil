@@ -4,17 +4,17 @@ text_goodbye_worship_1
 
 [TEXT_SET:GOODBYE_WORSHIP_1]
 
-upon arising in the mornings,
-when going on a long journey,
-before retiring in the evening,
-as sure as I am here now,
-and lo,
-it cannot be said enough;
-these are dangerous times, so
-I say again
-yes,
-before every meal,
-whenever the tide turns,
-when you return to this place,
-when you arrive at your destination,
-at this juncture in your life,
+ao se levantar pela manh„,
+quando estiver indo em uma longa jornada,
+antes de se recolher ao anoitecer,
+t„o certa quanto eu estou aqui agora,
+e eis que,
+n„o pode ser dito suficiente;
+estes s„o tempos perigosos, ent„o
+Digo mais uma vez
+sim,
+antes de cada refei‡„o,
+sempre que muda a mar‚,
+quando retornar a este local,
+quando chegar ao seu destino,
+nessa encruzilhada da sua vida,

@@ -4,4 +4,4 @@ text_justification_experience
 
 [TEXT_SET:JUSTIFICATION_EXPERIENCE]
 
-can allow one to experience
+pode permitir que algu‚m vivencie

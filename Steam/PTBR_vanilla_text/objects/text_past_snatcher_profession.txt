@@ -4,5 +4,5 @@ text_past_snatcher_profession
 
 [TEXT_SET:PAST_SNATCHER_PROFESSION]
 
-Once it was my calling to rescue lost children.
-For [CONTEXT:NUMBER] of my years, I rescued lost children.
+Uma vez meu of¡cio era resgatar crian‡as perdidas.
+Durante [CONTEXT:NUMBER] anos, eu resgatei crian‡as perdidas.

@@ -1,4 +1,4 @@
-text_book_art
+ï»¿text_book_art
 
 [OBJECT:TEXT_SET]
 
@@ -6,19 +6,19 @@ text_book_art
 
 [NAME]
 [PHRASE]
-[ADJ] [NO_ART_NAME]
-The [ADJ] [NO_ART_NAME]
+[NO_ART_NAME] [ADJ]
+O [NO_ART_NAME] [ADJ]
 [NAME] [ADJ]
-[NAME] and the [NOUN]
-[NAME] and the [ADJ] [NOUN]
-The [NOUN] and [NAME]
-The [ADJ] [NOUN] and [NAME]
+[NAME] e o [NOUN]
+[NAME] e o [NOUN] [ADJ]
+O [NOUN] e [NAME]
+O [NOUN] [ADJ] e [NAME]
 [NAME]: [PHRASE]
-It Must Have Been [NAME]
-My Friend [NAME]
-The Birth of [NAME]
-The Sun Sets on [NAME]
-We See [NAME]
-[NAME] Ever Onward
-[NAME] and Nothing More
-And [ANY_PRONOUN] Sang '[NAME]!'
+Deve Ter Sido [NAME]
+Meu Amigo [NAME]
+O Nascimento de [NAME]
+O Sol se P”e sobre [NAME]
+N¢s Avistamos [NAME]
+[NAME] Sempre Adiante
+[NAME] e Nada Mais
+E [ANY_PRONOUN] Cantou '[NAME]!'

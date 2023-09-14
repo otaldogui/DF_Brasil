@@ -4,7 +4,7 @@ text_temple_become_member
 
 [TEXT_SET:TEMPLE_BECOME_MEMBER]
 
-Welcome to [CONTEXT:ENTITY:TRANS_NAME].  Praise be to [CONTEXT:ENTITY:WORSHIP_HF:TRANS_NAME]!
-Welcome to [CONTEXT:ENTITY:TRANS_NAME].  Praise be to [CONTEXT:ENTITY:WORSHIP_HF:RANDOM_DEF_SPHERE]!
-As a member of [CONTEXT:ENTITY:TRANS_NAME], you can now seek the higher mysteries of [CONTEXT:ENTITY:WORSHIP_HF:TRANS_NAME].
-As a member of [CONTEXT:ENTITY:TRANS_NAME], you can now seek the higher mysteries of [CONTEXT:ENTITY:WORSHIP_HF:RANDOM_DEF_SPHERE].
+Bem-vindo a [CONTEXT:ENTITY:TRANS_NAME].  Louvado seja [CONTEXT:ENTITY:WORSHIP_HF:TRANS_NAME]!
+Bem-vindo a [CONTEXT:ENTITY:TRANS_NAME].  Louvado seja [CONTEXT:ENTITY:WORSHIP_HF:RANDOM_DEF_SPHERE]!
+Como membro da [CONTEXT:ENTITY:TRANS_NAME], agora vocˆ pode buscar os mist‚rios grandiosos de [CONTEXT:ENTITY:WORSHIP_HF:TRANS_NAME].
+Como membro da [CONTEXT:ENTITY:TRANS_NAME], agora vocˆ pode buscar os mist‚rios grandiosos de [CONTEXT:ENTITY:WORSHIP_HF:RANDOM_DEF_SPHERE].

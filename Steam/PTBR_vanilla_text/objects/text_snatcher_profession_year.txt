@@ -4,4 +4,4 @@ text_snatcher_profession_year
 
 [TEXT_SET:SNATCHER_PROFESSION_YEAR]
 
-For [CONTEXT:NUMBER] of my years, I have been rescuing lost children and bringing them back to [CONTEXT:PLACE:TRANS_NAME].
+Durante [CONTEXT:NUMBER] anos, eu tenho resgatado crian‡as perdidas e as trazendo de volta para [CONTEXT:PLACE:TRANS_NAME].

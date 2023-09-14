@@ -4,10 +4,10 @@ text_general
 
 [TEXT_SET:GENERAL]
 
-whose cries for mercy went unheeded by my wrath
-whose insignificant name I struggle to recall
-a spineless slug who was crushed under my might
-whom I buried alive under a mountain of hatred
-who lies dead, now only an embarrassing memory
-who sought my praise, only to be rejected in death
-once revered by those who didn't know any better
+aqueles que choraram por miseric¢rdia foram ignorados pela minha ira
+cujo nome insignificante eu mal consigo me lembrar
+uma lesma molenga a qual foi esmagada sob o meu poder
+o qual eu enterrei vivo sob uma montanha de ¢dio
+que jaz morto, agora apenas uma lembran‡a embara‡osa
+o qual teve procurado minha aprova‡„o, apenas para ser rejeitada na morte
+uma vez reverenciado por aqueles que n„o tinham nada melhor

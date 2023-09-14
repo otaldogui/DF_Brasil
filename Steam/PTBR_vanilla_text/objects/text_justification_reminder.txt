@@ -4,4 +4,4 @@ text_justification_reminder
 
 [TEXT_SET:JUSTIFICATION_REMINDER]
 
-can remind one of
+pode lembrar algu‚m de

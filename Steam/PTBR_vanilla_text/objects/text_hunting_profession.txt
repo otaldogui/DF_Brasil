@@ -4,4 +4,4 @@ text_hunting_profession
 
 [TEXT_SET:HUNTING_PROFESSION]
 
-I hunt great beasts in [CONTEXT:PLACE:TRANS_NAME].
+Eu ca‡o grandes bestas em [CONTEXT:PLACE:TRANS_NAME].
